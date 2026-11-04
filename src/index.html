@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <title>Discover Canada Prep — Official Citizenship Exam &amp; Gamified Study Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+  <!-- Private Invitation Link & Gmail / Password Authentication Gate -->
+  <div id="auth-gate-overlay" class="auth-gate-overlay" style="display: none;"></div>
+
+  <div class="app-shell">
+    <!-- Left Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand-header">
+        <div class="brand-logo" aria-hidden="true">🍁</div>
+        <div class="brand-titles">
+          <h1>Discover Canada</h1>
+          <span class="brand-subtitle">Citizenship Exam Studio</span>
+        </div>
+      </div>
+
+      <!-- User Rank & Gamification Mini-Card -->
+      <div class="rank-card" id="sidebar-rank-card">
+        <div class="rank-top">
+          <span class="rank-badge-icon" id="ui-rank-icon">🧭</span>
+          <div class="rank-info">
+            <div class="rank-level" id="ui-rank-level">LEVEL 1</div>
+            <div class="rank-title" id="ui-rank-title">Newcomer Explorer</div>
+          </div>
+        </div>
+        <div class="xp-bar-wrap" title="Experience Points toward next Citizenship Rank">
+          <div class="xp-bar-fill" id="ui-xp-fill" style="width: 0%"></div>
+        </div>
+        <div class="xp-meta">
+          <span id="ui-xp-text">0 XP</span>
+          <span id="ui-xp-next">Next: 250 XP</span>
+        </div>
+        <div class="streak-row">
+          <span class="streak-pill" title="Daily Study Streak">🔥 <strong id="ui-streak-days">1</strong>d Streak</span>
+          <span class="streak-pill" title="Best Consecutive Correct Answers">⚡ <strong id="ui-best-combo">0</strong>x Best</span>
+        </div>
+      </div>
+
+      <!-- Primary Navigation -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <button class="nav-btn active" data-tab="exam" id="nav-btn-exam">
+          <span class="nav-icon">🏛️</span>
+          <span class="nav-label">20-Question Exam</span>
+          <span class="nav-badge" id="nav-badge-pass">15/20</span>
+        </button>
+        <button class="nav-btn" data-tab="study" id="nav-btn-study">
+          <span class="nav-icon">🎮</span>
+          <span class="nav-label">Gamified Study Lab</span>
+          <span class="nav-badge nav-badge-gold">XP</span>
+        </button>
+        <button class="nav-btn" data-tab="analytics" id="nav-btn-analytics">
+          <span class="nav-icon">📊</span>
+          <span class="nav-label">Progress &amp; Weak Areas</span>
+          <span class="nav-badge nav-badge-alert" id="nav-badge-weak" style="display:none">0</span>
+        </button>
+        <button class="nav-btn" data-tab="pdf" id="nav-btn-pdf">
+          <span class="nav-icon">🗺️</span>
+          <span class="nav-label">Maps, Charts &amp; PDFs</span>
+        </button>
+        <button class="nav-btn" data-tab="profile" id="nav-btn-profile">
+          <span class="nav-icon">🏆</span>
+          <span class="nav-label">Badges &amp; Mac Sync</span>
+        </button>
+      </nav>
+
+      <!-- Sidebar Footer Controls -->
+      <div class="sidebar-footer">
+        <div class="active-user-pill" id="ui-active-user-pill" title="Active Authenticated Account">
+          🟢 <span id="ui-active-user-email">dfvalen0223@gmail.com</span>
+        </div>
+        <button class="footer-action-btn" id="btn-copy-private-link" title="Copy Private Invitation Link (?key=...) to share">
+          🔗 Copiar Enlace Privado
+        </button>
+        <button class="footer-action-btn" id="btn-toggle-sound" title="Toggle Sound Effects">
+          🔊 Sound FX: ON
+        </button>
+        <button class="footer-action-btn" id="btn-quick-export" title="Export Progress JSON to move between Macs">
+          📤 Export Mac Progress
+        </button>
+        <button class="footer-action-btn" id="btn-logout-user" title="Sign out or switch Gmail account">
+          🚪 Cerrar Sesión / Cambiar Cuenta
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Viewport -->
+    <main class="main-viewport">
+      <!-- Top Status Header -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <h2 id="topbar-title">Official 20-Question Citizenship Exam Simulator</h2>
+          <p id="topbar-subtitle">English Multiple-Choice • Pass Criterion: 15 / 20 (75%) • Dynamic Anti-Memorization Engine</p>
+        </div>
+        <div class="topbar-right">
+          <div class="readiness-chip" id="topbar-readiness-chip">
+            <span class="readiness-dot" id="topbar-readiness-dot"></span>
+            <span>Readiness: <strong id="topbar-readiness-pct">0%</strong></span>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="btn-start-quick-weakness" title="Launch a 20-question exam targeting your weak areas">
+            🎯 Reinforce Weak Areas
+          </button>
+        </div>
+      </header>
+
+      <!-- ================================================================= -->
+      <!-- TAB 1: 20-QUESTION EXAM SIMULATOR                                 -->
+      <!-- ================================================================= -->
+      <section class="tab-panel active" id="tab-exam">
+        <!-- Exam Launchpad View -->
+        <div id="exam-launchpad" class="view-container">
+          <div class="hero-banner">
+            <div class="hero-content">
+              <div class="hero-eyebrow">OFFICIAL DISCOVER CANADA STANDARD • ENGLISH</div>
+              <h3>Intelligent 20-Question Citizenship Exam</h3>
+              <p>
+                Every exam dynamically samples across <strong>all 11 chapters</strong> of the attached <em>Discover Canada</em> study guides, includes <strong>maps, government charts, and historical graphics</strong>, rotates question phrasings, and shuffles distractors so you build genuine mastery instead of memorizing answers.
+              </p>
+              <div class="hero-specs">
+                <div class="spec-pill">✅ <strong>15 / 20 (75%)</strong> Required to Pass</div>
+                <div class="spec-pill">⏱️ <strong>30 Min (Online IRCC)</strong> / 45 Min</div>
+                <div class="spec-pill">💡 <strong>Truco "Más Texto = Correcta"</strong> Activo</div>
+                <div class="spec-pill">🗺️ <strong>Maps, Tables &amp; Diagrams</strong> Included</div>
+              </div>
+            </div>
+            <div class="hero-cta-box">
+              <div class="trick-selector-box">
+                <label class="trick-select-label" for="sel-option-length-mode">
+                  🎯 Formato de Opciones del Examen (Truco de Selección):
+                </label>
+                <select id="sel-option-length-mode" class="trick-select-input">
+                  <option value="longest_correct" selected>💡 Modo Truco Activo: La respuesta correcta SIEMPRE tiene más texto (100%)</option>
+                  <option value="balanced_ircc">🛡️ Modo Sin Truco: Opciones cortas de igual longitud (Estándar IRCC)</option>
+                </select>
+              </div>
+              <label class="tutor-toggle-label">
+                <input type="checkbox" id="chk-instant-feedback" />
+                <span>Instant Explanation Mode (Show answer &amp; PDF page right after each click)</span>
+              </label>
+              <button class="btn btn-primary btn-lg" id="btn-launch-standard-exam">
+                🍁 Start Official 20-Question Exam
+              </button>
+            </div>
+          </div>
+
+          <!-- Exam Mode Cards Grid -->
+          <div class="cards-grid-3">
+            <div class="mode-card">
+              <div class="mode-card-header">
+                <span class="mode-icon">🏛️</span>
+                <span class="mode-tag">All 11 Chapters + Visuals</span>
+              </div>
+              <h4>Standard Adaptive Exam (20 Qs)</h4>
+              <p>Stratified coverage across every section of both books plus at least 5 map, chart, and table questions. Adapts dynamically to your learning profile.</p>
+              <button class="btn btn-primary btn-full" data-exam-mode="adaptive">
+                Generate Fresh 20-Question Exam
+              </button>
+            </div>
+
+            <div class="mode-card">
+              <div class="mode-card-header">
+                <span class="mode-icon">🎯</span>
+                <span class="mode-tag mode-tag-amber">Smart Weakness Targeting</span>
+              </div>
+              <h4>Targeted Reinforcement Exam (20 Qs)</h4>
+              <p>Prioritizes concepts from your Mistake Vault and chapters below 75% accuracy, using rotated question stems so you truly understand the material.</p>
+              <button class="btn btn-amber btn-full" data-exam-mode="weakness">
+                Start Weakness Reinforcement Exam
+              </button>
+            </div>
+
+            <div class="mode-card">
+              <div class="mode-card-header">
+                <span class="mode-icon">🗺️</span>
+                <span class="mode-tag mode-tag-blue">Maps, Charts &amp; Graphics</span>
+              </div>
+              <h4>Visual Maps &amp; Diagrams Exam (20 Qs)</h4>
+              <p>Intensive exam focusing heavily on the Map of Canada, Regions &amp; Capitals table, System of Government chart, Legislative Process, and PDF photos.</p>
+              <button class="btn btn-secondary btn-full" data-exam-mode="visual_focus">
+                Start Visual &amp; Map Focus Exam
+              </button>
+            </div>
+          </div>
+
+          <!-- Anti-Memorization & Adaptive Engine Status Strip -->
+          <div class="info-strip">
+            <div>
+              <strong>🔄 Anti-Memorization Guarantee:</strong>
+              <span id="ui-bank-stats-text">131 official concepts • 393 rotating English question stems • 43 visual map/chart items • Dynamic distractor sampling</span>
+            </div>
+            <div class="info-strip-right">
+              <span>Last Exam Cooldown Active: <strong id="ui-cooldown-count">0</strong> items rotated</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Active Exam Runner View -->
+        <div id="exam-runner" class="view-container" style="display: none;">
+          <div class="exam-topbar">
+            <div class="exam-meta-left">
+              <span class="exam-mode-badge" id="exam-active-mode-badge">Official Adaptive Exam</span>
+              <span class="exam-progress-label">Question <strong id="exam-q-curr">1</strong> of <strong id="exam-q-total">20</strong></span>
+              <span class="exam-pass-target">Pass Criterion: <strong>15 / 20 (75%)</strong></span>
+            </div>
+            <div class="exam-meta-right">
+              <div class="timer-pill" id="exam-timer-pill">
+                ⏱️ <span id="exam-timer-display">45:00</span>
+              </div>
+              <button class="btn btn-outline btn-sm" id="btn-exam-speak" title="Read Question and Options aloud in English">
+                🔊 Read in English
+              </button>
+              <button class="btn btn-outline btn-sm" id="btn-exam-flag" title="Flag this question for review before submitting">
+                🚩 Flag
+              </button>
+              <button class="btn btn-danger btn-sm" id="btn-exam-abort">
+                ✕ Exit Exam
+              </button>
+            </div>
+          </div>
+
+          <!-- 20-Question Number Strip -->
+          <div class="question-strip" id="exam-question-strip" role="navigation" aria-label="Exam Questions"></div>
+
+          <!-- Main Question Card -->
+          <div class="exam-question-card">
+            <div class="question-card-header">
+              <div class="chapter-pill" id="exam-q-chapter-pill">🍁 Chapter 1</div>
+              <div class="adaptive-reason-pill" id="exam-q-reason-pill" title="Why the intelligent engine selected this question">
+                🧠 Adaptive Selection
+              </div>
+            </div>
+
+            <div class="question-topic-line" id="exam-q-topic">Topic</div>
+            <h3 class="question-stem-text" id="exam-q-stem">Question text loads here...</h3>
+
+            <!-- Visual Map / Chart / Figure Container (shown when question has a visual/map/chart) -->
+            <div class="question-visual-box" id="exam-q-visual-box" style="display: none;">
+              <div class="visual-content-split" id="exam-q-visual-content"></div>
+              <div class="visual-caption-bar">
+                <span id="exam-q-visual-caption">Official Figure from Discover Canada</span>
+                <button class="btn-link" id="btn-zoom-exam-visual">🔍 Enlarge Image</button>
+              </div>
+            </div>
+
+            <!-- Multiple Choice Options (A, B, C, D) -->
+            <div class="options-list" id="exam-options-list" role="radiogroup" aria-label="Answer Options"></div>
+
+            <!-- Instant Tutor Explanation Box (if enabled or after answer) -->
+            <div class="instant-feedback-box" id="exam-instant-feedback" style="display: none;"></div>
+
+            <!-- Bottom Navigation Bar -->
+            <div class="exam-bottom-nav">
+              <button class="btn btn-secondary" id="btn-exam-prev">← Previous</button>
+              <div class="exam-answered-counter">
+                Answered: <strong id="exam-answered-count">0</strong> / <span id="exam-answered-total">20</span>
+              </div>
+              <div class="exam-nav-right">
+                <button class="btn btn-primary" id="btn-exam-next">Next Question →</button>
+                <button class="btn btn-success" id="btn-exam-submit" style="display: none;">
+                  ✅ Submit &amp; Grade Exam
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exam Results & Diagnostic View -->
+        <div id="exam-results" class="view-container" style="display: none;"></div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- TAB 2: GAMIFIED STUDY LAB                                         -->
+      <!-- ================================================================= -->
+      <section class="tab-panel" id="tab-study">
+        <div class="study-subnav">
+          <button class="study-tab-btn active" data-study-mode="trail" id="study-btn-trail">
+            🛶 1. Canada Expedition Trail (11 Chapters)
+          </button>
+          <button class="study-tab-btn" data-study-mode="flashcards" id="study-btn-flashcards">
+            🧠 2. 3D Spaced-Repetition Flashcards
+          </button>
+          <button class="study-tab-btn" data-study-mode="mapgame" id="study-btn-mapgame">
+            🗺️ 3. Interactive Map &amp; Civics Challenge
+          </button>
+          <button class="study-tab-btn" data-study-mode="blitz" id="study-btn-blitz">
+            ⚡ 4. Maple Blitz (60s Arcade)
+          </button>
+        </div>
+
+        <!-- Study Mode 1: Expedition Trail -->
+        <div class="study-mode-panel active" id="study-panel-trail"></div>
+
+        <!-- Study Mode 2: 3D Spaced-Repetition Flashcards -->
+        <div class="study-mode-panel" id="study-panel-flashcards" style="display: none;"></div>
+
+        <!-- Study Mode 3: Interactive Map & Civics Challenge -->
+        <div class="study-mode-panel" id="study-panel-mapgame" style="display: none;"></div>
+
+        <!-- Study Mode 4: 60s Maple Blitz -->
+        <div class="study-mode-panel" id="study-panel-blitz" style="display: none;"></div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- TAB 3: PROGRESS ANALYTICS & WEAK AREAS                            -->
+      <!-- ================================================================= -->
+      <section class="tab-panel" id="tab-analytics">
+        <div id="analytics-container" class="view-container"></div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- TAB 4: MAPS, CHARTS & OFFICIAL PDF EXPLORER                       -->
+      <!-- ================================================================= -->
+      <section class="tab-panel" id="tab-pdf">
+        <div id="pdf-explorer-container" class="view-container"></div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- TAB 5: ACHIEVEMENTS & MAC-TO-MAC PORTABILITY                      -->
+      <!-- ================================================================= -->
+      <section class="tab-panel" id="tab-profile">
+        <div id="profile-container" class="view-container"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Image / PDF Figure Zoom Lightbox Modal -->
+  <div class="modal-backdrop" id="lightbox-modal" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="lightbox-title">Official Study Guide Visual</h3>
+        <button class="btn btn-secondary btn-sm" id="btn-close-lightbox">✕ Close</button>
+      </div>
+      <div class="modal-body">
+        <img id="lightbox-img" src="" alt="Enlarged figure from Discover Canada" />
+        <p id="lightbox-caption" class="modal-caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Core Application Scripts -->
+  <script src="data/study_content.js"></script>
+  <script src="data/questions.js"></script>
+  <script src="svg_maps.js"></script>
+  <script src="engine.js"></script>
+  <script src="gamification.js"></script>
+  <script src="auth.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
