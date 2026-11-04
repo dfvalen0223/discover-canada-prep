@@ -310,7 +310,7 @@ window.AuthGate = (function () {
     // If both Private Link is verified AND user has an active session, unlock the app!
     if (hasPrivateAccess && currentSession) {
       overlay.style.display = "none";
-      if (appShell) appShell.style.display = "grid";
+      if (appShell) appShell.style.display = "flex";
       if (window.AdaptiveEngine && window.AdaptiveEngine.setActiveUserScope) {
         window.AdaptiveEngine.setActiveUserScope(currentSession.email || currentSession.username);
       }
