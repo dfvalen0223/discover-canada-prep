@@ -118,6 +118,9 @@
       document.getElementById("topbar-title").textContent = titles[tabId][0];
       document.getElementById("topbar-subtitle").textContent = titles[tabId][1];
     }
+    if (tabId !== "exam" || !currentExam) {
+      document.body.classList.remove("exam-running");
+    }
 
     refreshSidebarAndHeader();
     if (tabId === "analytics") renderAnalyticsTab();
@@ -196,6 +199,7 @@
     examStartTime = Date.now();
 
     switchMainTab("exam");
+    document.body.classList.add("exam-running");
     document.getElementById("exam-launchpad").style.display = "none";
     document.getElementById("exam-results").style.display = "none";
     document.getElementById("exam-runner").style.display = "block";
@@ -235,7 +239,8 @@
 
   function renderQuestionStrip() {
     const strip = document.getElementById("exam-question-strip");
-    strip.style.gridTemplateColumns = `repeat(${currentExam.totalQuestions}, 1fr)`;
+    strip.style.removeProperty("grid-template-columns");
+    strip.classList.toggle("q-strip-10", currentExam.totalQuestions <= 10);
     strip.innerHTML = currentExam.questions.map((q, idx) => {
       const isCurr = idx === currentQIndex;
       const isAns = !!userAnswers[q.number];
@@ -393,6 +398,7 @@
   }
 
   function renderExamResultsView(record) {
+    document.body.classList.remove("exam-running");
     document.getElementById("exam-launchpad").style.display = "none";
     document.getElementById("exam-runner").style.display = "none";
     const resContainer = document.getElementById("exam-results");
@@ -448,7 +454,7 @@
         ` : ''}
         <div style="font-size:13px; color:#334155; background:#f8fafc; padding:10px; border-radius:7px; margin-top:6px;">
           <strong>Study Guide Explanation:</strong> ${dr.explanation}
-          <div style="margin-top:5px; font-size:11.5px; color:#64748b; display:flex; justify-content:space-between; align-items:center;">
+          <div style="margin-top:5px; font-size:11.5px; color:#64748b; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px;">
             <span>📖 Illustrated Guide: <strong>${dr.refIllustrated}</strong> | Large Print Guide: <strong>${dr.refLargePrint}</strong> | Engine: <em>${dr.adaptiveReason}</em></span>
             <button class="btn-link btn-open-pdf-ref" data-ref="${dr.refIllustrated}">Open in PDF Guide →</button>
           </div>
@@ -664,9 +670,9 @@
     panel.innerHTML = `
       <div class="flashcard-stage">
         <div class="section-card" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
-          <div>
+          <div style="display:flex; align-items:center; flex-wrap:wrap; gap:8px; max-width:100%;">
             <strong>🧠 SM-2 Spaced-Repetition Deck:</strong>
-            <select id="fc-filter-select" style="margin-left:8px; padding:6px 10px; border-radius:6px; border:1px solid #cbd5e1; font-weight:600;">
+            <select id="fc-filter-select" style="padding:6px 10px; border-radius:6px; border:1px solid #cbd5e1; font-weight:600; max-width:100%;">
               <option value="all" ${fcFilter === 'all' ? 'selected' : ''}>All 11 Chapters (${window.QUESTION_BANK.length} Cards)</option>
               <option value="weak" ${fcFilter === 'weak' ? 'selected' : ''}>🎯 Weak / Mistake Vault Cards</option>
               <option value="visual" ${fcFilter === 'visual' ? 'selected' : ''}>🗺️ Visual Map &amp; Chart Cards</option>
@@ -1120,12 +1126,12 @@
     const historyHtml = report.examHistory.length === 0
       ? `<p style="font-size:13px; color:#64748b;">No exams completed yet. Take your first 20-question exam to see your score trend!</p>`
       : report.examHistory.slice(0, 12).map((ex, i) => `
-          <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 12px; border-bottom:1px solid #e2e8f0; font-size:13px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; padding:10px 12px; border-bottom:1px solid #e2e8f0; font-size:13px;">
             <div>
               <strong>Exam #${report.examHistory.length - i}</strong>
               <span style="color:#64748b; margin-left:8px;">${new Date(ex.completedAt).toLocaleString()} • Mode: ${ex.mode}</span>
             </div>
-            <div style="display:flex; align-items:center; gap:12px;">
+            <div style="display:flex; align-items:center; flex-wrap:wrap; gap:10px;">
               <span>Visuals: <strong>${ex.visualCorrect}/${ex.visualTotal}</strong></span>
               <span style="font-weight:900; padding:3px 10px; border-radius:99px; background:${ex.passed ? '#dcfce7' : '#fee2e2'}; color:${ex.passed ? '#166534' : '#991b1b'};">
                 ${ex.score}/${ex.total} (${ex.percentage}%) — ${ex.passed ? 'PASSED' : 'NEEDS REVIEW'}
@@ -1229,11 +1235,11 @@
           <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px;">
             ${chJumpButtons}
           </div>
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; background:#f8fafc; padding:10px 14px; border-radius:8px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px; background:#f8fafc; padding:10px 14px; border-radius:8px;">
             <button class="btn btn-secondary btn-sm" id="btn-pdf-prev-page" ${currentPdfPage <= 1 ? 'disabled' : ''}>← Page ${currentPdfPage - 1}</button>
-            <div style="display:flex; align-items:center; gap:10px;">
+            <div style="display:flex; align-items:center; flex-wrap:wrap; justify-content:center; gap:10px;">
               <strong>Illustrated Study Guide — Page ${currentPdfPage} of 68</strong>
-              <input type="range" id="pdf-page-slider" min="1" max="68" value="${currentPdfPage}" style="width:180px;" />
+              <input type="range" id="pdf-page-slider" min="1" max="68" value="${currentPdfPage}" style="width:160px; max-width:100%;" />
             </div>
             <button class="btn btn-secondary btn-sm" id="btn-pdf-next-page" ${currentPdfPage >= 68 ? 'disabled' : ''}>Page ${currentPdfPage + 1} →</button>
           </div>
@@ -1467,9 +1473,25 @@
   // GLOBAL EVENT BINDINGS & KEYBOARD SHORTCUTS
   // =========================================================================
   function bindGlobalEvents() {
+    // Mobile drawer toggle (Account / XP menu on screens <= 860px)
+    const mobileToggleBtn = document.getElementById("btn-mobile-drawer-toggle");
+    const mainSidebar = document.getElementById("main-sidebar");
+    if (mobileToggleBtn && mainSidebar) {
+      mobileToggleBtn.addEventListener("click", () => {
+        const isOpen = mainSidebar.classList.toggle("mobile-drawer-open");
+        mobileToggleBtn.textContent = isOpen ? "✕ Cerrar ▴" : "⚙️ Cuenta / XP ▾";
+      });
+    }
+
     // Sidebar tab navigation
     document.querySelectorAll(".nav-btn").forEach(btn => {
-      btn.addEventListener("click", () => switchMainTab(btn.dataset.tab));
+      btn.addEventListener("click", () => {
+        if (mainSidebar && mainSidebar.classList.contains("mobile-drawer-open")) {
+          mainSidebar.classList.remove("mobile-drawer-open");
+          if (mobileToggleBtn) mobileToggleBtn.textContent = "⚙️ Cuenta / XP ▾";
+        }
+        switchMainTab(btn.dataset.tab);
+      });
     });
 
     // Sound toggle & Quick export & Private Link / Logout
@@ -1511,6 +1533,7 @@
     document.getElementById("btn-exam-abort").addEventListener("click", () => {
       if (examTimerInterval) clearInterval(examTimerInterval);
       currentExam = null;
+      document.body.classList.remove("exam-running");
       document.getElementById("exam-runner").style.display = "none";
       document.getElementById("exam-launchpad").style.display = "block";
     });
