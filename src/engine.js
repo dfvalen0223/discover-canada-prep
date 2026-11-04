@@ -212,7 +212,7 @@ window.AdaptiveEngine = (function () {
 
     return {
       weight,
-      primaryReason: reasons[0] || "Balanced Official Syllabus Sampling"
+      primaryReason: reasons[0] || "Balanced Syllabus Sampling"
     };
   }
 
@@ -315,7 +315,7 @@ window.AdaptiveEngine = (function () {
       chapterFilter = null,
       questionCount = 20,
       optionLengthMode = "longest_correct", // "longest_correct" | "balanced_ircc"
-      durationMinutes = 30 // 30 minutes Official IRCC Online Test default
+      durationMinutes = 30 // 30 minutes practice test default
     } = options;
 
     const allQuestions = window.QUESTION_BANK || [];
@@ -363,7 +363,7 @@ window.AdaptiveEngine = (function () {
         chosenItems.push(picked);
       }
     } else {
-      // Standard Official Adaptive 20-Question Exam:
+      // Standard Adaptive 20-Question Practice Exam:
       // Step 1: Guarantee 1 question from EACH of the 11 chapters of Discover Canada (11 questions)
       const chapters = (window.STUDY_CHAPTERS || []).map(c => c.id);
       shuffle(chapters).forEach(chId => {
@@ -387,7 +387,7 @@ window.AdaptiveEngine = (function () {
           q: picked.q,
           primaryReason: picked.primaryReason.includes("Weak")
             ? picked.primaryReason
-            : "Official Map / Chart / Graphic Assessment"
+            : "Map / Chart / Graphic Practice"
         });
       }
 
@@ -415,7 +415,7 @@ window.AdaptiveEngine = (function () {
       createdAt: new Date().toISOString(),
       totalQuestions: questions.length,
       passMark: Math.ceil(questions.length * 0.75), // 15 out of 20
-      durationSeconds: (durationMinutes || 30) * 60, // 30 minutes official IRCC Online Test limit
+      durationSeconds: (durationMinutes || 30) * 60, // 30 minutes practice timer
       questions
     };
   }
@@ -666,7 +666,7 @@ window.AdaptiveEngine = (function () {
   }
 
   /**
-   * Computes comprehensive Analytics, Official Readiness Score, Chapter Mastery & Weak Area Diagnostics
+   * Computes comprehensive Analytics, Estimated Readiness Score, Chapter Mastery & Weak Area Diagnostics
    */
   function getAnalyticsReport() {
     const allQuestions = window.QUESTION_BANK || [];

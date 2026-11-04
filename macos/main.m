@@ -70,7 +70,7 @@
                                               styleMask:style
                                                 backing:NSBackingStoreBuffered
                                                   defer:NO];
-    [self.window setTitle:@"Discover Canada Prep — Official Citizenship Exam & Gamified Study Studio"];
+    [self.window setTitle:@"Discover Canada Prep — Citizenship Practice Exam & Gamified Study Studio"];
     [self.window setMinSize:NSMakeSize(960, 640)];
     [self.window center];
     [self.window setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];

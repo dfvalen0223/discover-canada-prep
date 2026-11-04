@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow, noarchive" />
-  <title>Discover Canada Prep — Official Citizenship Exam &amp; Gamified Study Studio</title>
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <title>Discover Canada Prep — Citizenship Practice Exam &amp; Gamified Study Studio</title>
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body>
   <!-- Private Invitation Link & Password Authentication Gate -->
@@ -18,7 +18,7 @@
         <div class="brand-logo" aria-hidden="true">🍁</div>
         <div class="brand-titles">
           <h1>Discover Canada</h1>
-          <span class="brand-subtitle">Citizenship Exam Studio</span>
+          <span class="brand-subtitle">Practice &amp; Study Studio</span>
         </div>
       </div>
 
@@ -74,7 +74,7 @@
       <!-- Sidebar Footer Controls -->
       <div class="sidebar-footer">
         <div class="active-user-pill" id="ui-active-user-pill" title="Active Authenticated Account">
-          🟢 <span id="ui-active-user-email">dfvalen0223@gmail.com</span>
+          🟢 <span id="ui-active-user-email">daniel1130</span>
         </div>
         <button class="footer-action-btn" id="btn-copy-private-link" title="Copy Private Invitation Link (?key=...) to share">
           🔗 Copiar Enlace Privado
@@ -85,8 +85,8 @@
         <button class="footer-action-btn" id="btn-quick-export" title="Export Progress JSON to move between Macs">
           📤 Export Mac Progress
         </button>
-        <button class="footer-action-btn" id="btn-logout-user" title="Sign out or switch Gmail account">
-          🚪 Cerrar Sesión / Cambiar Cuenta
+        <button class="footer-action-btn" id="btn-logout-user" title="Sign out or switch user">
+          🚪 Cerrar Sesión / Cambiar Usuario
         </button>
       </div>
     </aside>
@@ -96,8 +96,8 @@
       <!-- Top Status Header -->
       <header class="topbar">
         <div class="topbar-left">
-          <h2 id="topbar-title">Official 20-Question Citizenship Exam Simulator</h2>
-          <p id="topbar-subtitle">English Multiple-Choice • Pass Criterion: 15 / 20 (75%) • Dynamic Anti-Memorization Engine</p>
+          <h2 id="topbar-title">20-Question Citizenship Practice Exam</h2>
+          <p id="topbar-subtitle">Independent Study Tool • English Multiple-Choice • Pass Criterion: 15 / 20 (75%) • Dynamic Anti-Memorization Engine</p>
         </div>
         <div class="topbar-right">
           <div class="readiness-chip" id="topbar-readiness-chip">
@@ -118,14 +118,14 @@
         <div id="exam-launchpad" class="view-container">
           <div class="hero-banner">
             <div class="hero-content">
-              <div class="hero-eyebrow">OFFICIAL DISCOVER CANADA STANDARD • ENGLISH</div>
-              <h3>Intelligent 20-Question Citizenship Exam</h3>
+              <div class="hero-eyebrow">INDEPENDENT STUDY &amp; PRACTICE TOOL • ENGLISH</div>
+              <h3>Intelligent 20-Question Citizenship Practice Exam</h3>
               <p>
                 Every exam dynamically samples across <strong>all 11 chapters</strong> of the attached <em>Discover Canada</em> study guides, includes <strong>maps, government charts, and historical graphics</strong>, rotates question phrasings, and shuffles distractors so you build genuine mastery instead of memorizing answers.
               </p>
               <div class="hero-specs">
                 <div class="spec-pill">✅ <strong>15 / 20 (75%)</strong> Required to Pass</div>
-                <div class="spec-pill">⏱️ <strong>30 Min (Online IRCC)</strong> / 45 Min</div>
+                <div class="spec-pill">⏱️ <strong>30 Min</strong> Practice Timer</div>
                 <div class="spec-pill">💡 <strong>Truco "Más Texto = Correcta"</strong> Activo</div>
                 <div class="spec-pill">🗺️ <strong>Maps, Tables &amp; Diagrams</strong> Included</div>
               </div>
@@ -137,7 +137,7 @@
                 </label>
                 <select id="sel-option-length-mode" class="trick-select-input">
                   <option value="longest_correct" selected>💡 Modo Truco Activo: La respuesta correcta SIEMPRE tiene más texto (100%)</option>
-                  <option value="balanced_ircc">🛡️ Modo Sin Truco: Opciones cortas de igual longitud (Estándar IRCC)</option>
+                  <option value="balanced_ircc">🛡️ Modo Sin Truco: Opciones cortas de igual longitud</option>
                 </select>
               </div>
               <label class="tutor-toggle-label">
@@ -145,7 +145,7 @@
                 <span>Instant Explanation Mode (Show answer &amp; PDF page right after each click)</span>
               </label>
               <button class="btn btn-primary btn-lg" id="btn-launch-standard-exam">
-                🍁 Start Official 20-Question Exam
+                🍁 Start 20-Question Practice Exam
               </button>
             </div>
           </div>
@@ -193,7 +193,7 @@
           <div class="info-strip">
             <div>
               <strong>🔄 Anti-Memorization Guarantee:</strong>
-              <span id="ui-bank-stats-text">131 official concepts • 393 rotating English question stems • 43 visual map/chart items • Dynamic distractor sampling</span>
+              <span id="ui-bank-stats-text">141 study concepts • 423 rotating English question stems • 48 visual map/chart items • Dynamic distractor sampling</span>
             </div>
             <div class="info-strip-right">
               <span>Last Exam Cooldown Active: <strong id="ui-cooldown-count">0</strong> items rotated</span>
@@ -205,7 +205,7 @@
         <div id="exam-runner" class="view-container" style="display: none;">
           <div class="exam-topbar">
             <div class="exam-meta-left">
-              <span class="exam-mode-badge" id="exam-active-mode-badge">Official Adaptive Exam</span>
+              <span class="exam-mode-badge" id="exam-active-mode-badge">Adaptive Practice Exam</span>
               <span class="exam-progress-label">Question <strong id="exam-q-curr">1</strong> of <strong id="exam-q-total">20</strong></span>
               <span class="exam-pass-target">Pass Criterion: <strong>15 / 20 (75%)</strong></span>
             </div>
@@ -244,7 +244,7 @@
             <div class="question-visual-box" id="exam-q-visual-box" style="display: none;">
               <div class="visual-content-split" id="exam-q-visual-content"></div>
               <div class="visual-caption-bar">
-                <span id="exam-q-visual-caption">Official Figure from Discover Canada</span>
+                <span id="exam-q-visual-caption">Study Guide Figure from Discover Canada</span>
                 <button class="btn-link" id="btn-zoom-exam-visual">🔍 Enlarge Image</button>
               </div>
             </div>
@@ -315,7 +315,7 @@
       </section>
 
       <!-- ================================================================= -->
-      <!-- TAB 4: MAPS, CHARTS & OFFICIAL PDF EXPLORER                       -->
+      <!-- TAB 4: MAPS, CHARTS & STUDY GUIDE PDF EXPLORER                    -->
       <!-- ================================================================= -->
       <section class="tab-panel" id="tab-pdf">
         <div id="pdf-explorer-container" class="view-container"></div>
@@ -334,7 +334,7 @@
   <div class="modal-backdrop" id="lightbox-modal" style="display: none;">
     <div class="modal-card">
       <div class="modal-header">
-        <h3 id="lightbox-title">Official Study Guide Visual</h3>
+        <h3 id="lightbox-title">Study Guide Visual</h3>
         <button class="btn btn-secondary btn-sm" id="btn-close-lightbox">✕ Close</button>
       </div>
       <div class="modal-body">
@@ -348,12 +348,12 @@
   <div id="toast-container" class="toast-container"></div>
 
   <!-- Core Application Scripts -->
-  <script src="data/study_content.js?v=5"></script>
-  <script src="data/questions.js?v=5"></script>
-  <script src="svg_maps.js?v=5"></script>
-  <script src="engine.js?v=5"></script>
-  <script src="gamification.js?v=5"></script>
-  <script src="auth.js?v=5"></script>
-  <script src="app.js?v=5"></script>
+  <script src="data/study_content.js?v=6"></script>
+  <script src="data/questions.js?v=6"></script>
+  <script src="svg_maps.js?v=6"></script>
+  <script src="engine.js?v=6"></script>
+  <script src="gamification.js?v=6"></script>
+  <script src="auth.js?v=6"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>

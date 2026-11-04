@@ -4,7 +4,7 @@
 // 3. Mode 2: 3D Spaced-Repetition Flashcards (SM-2 / Leitner Boxes)
 // 4. Mode 3: Interactive Map of Canada & Civics Diagram Challenge
 // 5. Mode 4: 60-Second "Maple Blitz" Rapid-Fire Arcade Mode
-// 6. Mode 5: Official Discover Canada Visual Study Guide & Atlas Explorer (All 68 Pages + 16 Figures)
+// 6. Mode 5: Discover Canada Visual Study Guide & Atlas Explorer (All 68 Pages + 16 Figures)
 
 window.GamifiedStudy = (function () {
   let soundEnabled = true;
@@ -109,7 +109,7 @@ window.GamifiedStudy = (function () {
   const VISUAL_FIGURES_ATLAS = [
     {
       id: "fig_map_canada",
-      title: "Official Map of Canada (10 Provinces, 3 Territories, 3 Oceans & Ottawa)",
+      title: "Map of Canada (10 Provinces, 3 Territories, 3 Oceans & Ottawa)",
       chapter: "ch11",
       page: 45,
       asset: "../assets/figures/map_canada_full.jpg",

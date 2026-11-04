@@ -183,9 +183,9 @@ window.AuthGate = (function () {
         <div class="auth-header-row">
           <div class="auth-logo-circle">🍁</div>
           <div>
-            <div class="auth-badge-verified">🔒 ACCESO PRIVADO</div>
+            <div class="auth-badge-verified">🔒 ACCESO PRIVADO • PRÁCTICA DE ESTUDIO</div>
             <h2>Discover Canada Prep</h2>
-            <p class="auth-subtitle">Simulador Oficial de Ciudadanía Canadiense (20 Preguntas • 15/20 para Pasar)</p>
+            <p class="auth-subtitle">Herramienta Independiente de Estudio y Práctica (20 Preguntas • 15/20 para Pasar)</p>
           </div>
         </div>
 

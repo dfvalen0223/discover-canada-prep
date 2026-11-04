@@ -14,7 +14,7 @@ const moreIRCC = [
     difficulty: 1,
     isVisual: true,
     visualAsset: "../assets/figures/chart_system_of_government.jpg",
-    visualCaption: "Official Study Guide (p. 29): Judicial Branch — Supreme Court of Canada (nine judges appointed by the Governor General).",
+    visualCaption: "Discover Canada Study Guide (p. 29): Judicial Branch — Supreme Court of Canada (nine judges appointed by the Governor General).",
     stems: [
       "How many judges sit on the Supreme Court of Canada, and who appoints them?",
       "According to the System of Government chart on page 29, who appoints the nine judges of the Supreme Court of Canada?",
@@ -163,7 +163,7 @@ const moreIRCC = [
     isVisual: true,
     svgCallout: { type: "map", targetId: "QC", mode: "identify_province" },
     visualAsset: "../assets/figures/map_canada_full.jpg",
-    visualCaption: "Official Study Guide (p. 45, 47): Map of Canada — Identify the highlighted province [?].",
+    visualCaption: "Discover Canada Study Guide (p. 45, 47): Map of Canada — Identify the highlighted province [?].",
     stems: [
       "Look at the province marked with [?] on the Map of Canada (east of Ontario, bordering Hudson Bay and the St. Lawrence River). What province is it, and what is its capital city?",
       "Which province highlighted as [?] on the map is Canada's largest producer of hydro-electricity and pulp and paper, with Québec City as its capital?",
@@ -190,7 +190,7 @@ const moreIRCC = [
     isVisual: true,
     svgCallout: { type: "map", targetId: "NS", mode: "identify_province" },
     visualAsset: "../assets/figures/map_canada_full.jpg",
-    visualCaption: "Official Study Guide (p. 45–47): Map of Canada — Identify the highlighted Atlantic province [?].",
+    visualCaption: "Discover Canada Study Guide (p. 45–47): Map of Canada — Identify the highlighted Atlantic province [?].",
     stems: [
       "Look at the Atlantic peninsula and island province marked with [?] on the Map of Canada. Which province is it, and what is its capital city?",
       "Which Atlantic province highlighted as [?] is known for the world's highest tides in the Bay of Fundy and Canada's largest east coast naval base?",
@@ -217,7 +217,7 @@ const moreIRCC = [
     isVisual: true,
     svgCallout: { type: "map", targetId: "MB", mode: "identify_province" },
     visualAsset: "../assets/figures/map_canada_full.jpg",
-    visualCaption: "Official Study Guide (p. 45, 48): Map of Canada — Identify the easternmost Prairie province [?].",
+    visualCaption: "Discover Canada Study Guide (p. 45, 48): Map of Canada — Identify the easternmost Prairie province [?].",
     stems: [
       "Look at the Prairie province marked with [?] on the Map of Canada (located between Ontario and Saskatchewan, bordering Hudson Bay). What province is it, and what is its capital?",
       "Which Prairie province highlighted as [?] has the largest Aboriginal proportion of any province (over 15%) and Western Canada's largest Francophone community in St. Boniface?",
@@ -244,7 +244,7 @@ const moreIRCC = [
     isVisual: true,
     svgCallout: { type: "map", targetId: "NU", mode: "identify_province" },
     visualAsset: "../assets/figures/map_canada_full.jpg",
-    visualCaption: "Official Study Guide (p. 45, 50–51): Map of Canada — Identify the eastern Arctic territory [?].",
+    visualCaption: "Discover Canada Study Guide (p. 45, 50–51): Map of Canada — Identify the eastern Arctic territory [?].",
     stems: [
       "Look at the vast eastern Arctic territory marked with [?] on the Map of Canada (established on April 1, 1999). What territory is it, and what is its capital?",
       "Which Northern Territory highlighted as [?] means 'our land' in Inuktitut and has a population that is about 85% Inuit?",
@@ -333,7 +333,7 @@ unique.forEach(q => {
   }
 });
 
-const outContent = `// Official IRCC-Style Canadian Citizenship Exam Question Bank (English)
+const outContent = `// Practice Canadian Citizenship Exam Question Bank (English)
 // Total Official Concepts: ${unique.length} (${unique.length * 3} Rotating English Question Stems)
 // Dual-Mode Option Support:
 // 1. \`answerExtended\`: Used in "Modo Truco Activo (Seleccionar la Respuesta con Más Texto)" — 100% guaranteed to be the longest option!

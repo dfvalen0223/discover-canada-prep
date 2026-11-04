@@ -472,8 +472,8 @@ window.CITIZENSHIP_RANKS = [
 ];
 
 window.ACHIEVEMENTS_CATALOG = [
-  { id: "first_exam", title: "First Official Trial", desc: "Complete your first 20-question Citizenship Exam.", icon: "📝", xpReward: 100 },
-  { id: "pass_exam", title: "Citizenship Qualifier (15/20)", desc: "Pass an official 20-question exam with at least 15/20 (75%).", icon: "✅", xpReward: 200 },
+  { id: "first_exam", title: "First Practice Trial", desc: "Complete your first 20-question Citizenship Practice Exam.", icon: "📝", xpReward: 100 },
+  { id: "pass_exam", title: "Citizenship Qualifier (15/20)", desc: "Pass a 20-question practice exam with at least 15/20 (75%).", icon: "✅", xpReward: 200 },
   { id: "perfect_20", title: "Order of Excellence (20/20)", desc: "Score a perfect 20 out of 20 on a full Citizenship Exam.", icon: "🏆", xpReward: 400 },
   { id: "visual_master", title: "Cartographer & Civics Eye", desc: "Answer 15 visual map, chart, and diagram questions correctly.", icon: "🗺️", xpReward: 150 },
   { id: "all_chapters", title: "From Sea to Sea", desc: "Answer questions across all 11 chapters of Discover Canada.", icon: "🌊", xpReward: 250 },

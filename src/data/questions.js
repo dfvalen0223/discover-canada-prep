@@ -1,4 +1,4 @@
-// Official IRCC-Style Canadian Citizenship Exam Question Bank (English)
+// Practice Canadian Citizenship Exam Question Bank (English)
 // Total Official Concepts: 141 (423 Rotating English Question Stems)
 // Dual-Mode Option Support:
 // 1. `answerExtended`: Used in "Modo Truco Activo (Seleccionar la Respuesta con Más Texto)" — 100% guaranteed to be the longest option!
@@ -152,7 +152,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch2_official_study_q_three_responsibilities",
     "chapter": "ch2",
-    "topic": "Official Study Question: Responsibilities of Citizenship",
+    "topic": "Study Guide Question: Responsibilities of Citizenship",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -169,7 +169,7 @@ window.QUESTION_BANK = [
       "Joining a political party, owning property, serving two years in the military in the House of Commons in Ottawa",
       "Carrying a passport at all times, working for the government, donating to charity"
     ],
-    "explanation": "Official Study Question (Discover Canada, p. 52): Three responsibilities of citizenship are obeying the law, taking responsibility for oneself and one's family, and serving on a jury.",
+    "explanation": "Study Guide Question (Discover Canada, p. 52): Three responsibilities of citizenship are obeying the law, taking responsibility for oneself and one's family, and serving on a jury.",
     "refIllustrated": "p. 9, 52",
     "refLargePrint": "p. 14, 106"
   },
@@ -217,7 +217,7 @@ window.QUESTION_BANK = [
       "The Napoleonic Code (1804) and the Geneva Convention (1949)",
       "The Royal Charter of the Hudson's Bay Company (1670) and the Official Languages Act (1969)"
     ],
-    "explanation": "Official Study Question (p. 53): Two key documents that contain our rights and freedoms are Magna Carta (1215, the Great Charter of Freedoms) and the Canadian Charter of Rights and Freedoms (entrenched in the Constitution in 1982).",
+    "explanation": "Study Guide Question (p. 53): Two key documents that contain our rights and freedoms are Magna Carta (1215, the Great Charter of Freedoms) and the Canadian Charter of Rights and Freedoms (entrenched in the Constitution in 1982).",
     "refIllustrated": "p. 8, 53",
     "refLargePrint": "p. 11–12, 107"
   },
@@ -241,7 +241,7 @@ window.QUESTION_BANK = [
       "Right to elect Senators; right to appoint judges; and right to veto provincial laws",
       "Freedom of maritime navigation; freedom of currency; and freedom of interprovincial trade"
     ],
-    "explanation": "Official Study Question (p. 53): The four fundamental freedoms are: (1) Freedom of conscience and religion; (2) Freedom of thought, belief, opinion and expression, including freedom of speech and of the press; (3) Freedom of peaceful assembly; and (4) Freedom of association.",
+    "explanation": "Study Guide Question (p. 53): The four fundamental freedoms are: (1) Freedom of conscience and religion; (2) Freedom of thought, belief, opinion and expression, including freedom of speech and of the press; (3) Freedom of peaceful assembly; and (4) Freedom of association.",
     "refIllustrated": "p. 8, 53",
     "refLargePrint": "p. 11–12, 107"
   },
@@ -313,7 +313,7 @@ window.QUESTION_BANK = [
       "Corporate Monopoly Rights, Maritime Fishing Rights, and Mining Rights in the House of Commons in Ottawa",
       "Right to Elect Judges, Right to Recall Senators, and Right to Veto Bylaws"
     ],
-    "explanation": "Official Study Question (p. 53): The four additional Charter rights summarized on page 8 are: Mobility Rights, Aboriginal Peoples' Rights, Official Language Rights and Minority Language Educational Rights, and Multiculturalism.",
+    "explanation": "Study Guide Question (p. 53): The four additional Charter rights summarized on page 8 are: Mobility Rights, Aboriginal Peoples' Rights, Official Language Rights and Minority Language Educational Rights, and Multiculturalism.",
     "refIllustrated": "p. 8, 53",
     "refLargePrint": "p. 12–13, 107"
   },
@@ -361,7 +361,7 @@ window.QUESTION_BANK = [
       "Only men are legally required to serve on criminal juries when called under the authority of the Crown",
       "Municipal councils decide whether men and women receive equal protection under the law"
     ],
-    "explanation": "Official Study Question (p. 53): In Canada, men and women are equal under the law. Canada's openness and generosity do not extend to barbaric cultural practices that tolerate spousal abuse, 'honour killings,' female genital mutilation, forced marriage or other gender-based violence.",
+    "explanation": "Study Guide Question (p. 53): In Canada, men and women are equal under the law. Canada's openness and generosity do not extend to barbaric cultural practices that tolerate spousal abuse, 'honour killings,' female genital mutilation, forced marriage or other gender-based violence.",
     "refIllustrated": "p. 9, 53",
     "refLargePrint": "p. 13, 107"
   },
@@ -385,7 +385,7 @@ window.QUESTION_BANK = [
       "Avoiding community volunteering so you can focus only on private hobbies under the Canadian Constitution",
       "Delegating all household financial obligations to provincial agencies"
     ],
-    "explanation": "Official Study Question (p. 53): Getting a job, taking care of one's family and working hard in keeping with one's abilities are important Canadian values. Work contributes to one's personal dignity and self-respect, and to Canada's prosperity.",
+    "explanation": "Study Guide Question (p. 53): Getting a job, taking care of one's family and working hard in keeping with one's abilities are important Canadian values. Work contributes to one's personal dignity and self-respect, and to Canada's prosperity.",
     "refIllustrated": "p. 9, 53",
     "refLargePrint": "p. 14, 107"
   },
@@ -433,7 +433,7 @@ window.QUESTION_BANK = [
       "Inuit, Acadian, and Loyalist",
       "British, German, and Italian"
     ],
-    "explanation": "Official Study Question (p. 53): The three founding peoples of Canada are Aboriginal, French, and British.",
+    "explanation": "Study Guide Question (p. 53): The three founding peoples of Canada are Aboriginal, French, and British.",
     "refIllustrated": "p. 10, 53",
     "refLargePrint": "p. 16, 107"
   },
@@ -481,7 +481,7 @@ window.QUESTION_BANK = [
       "Farmers and hunters who lived exclusively around the Great Lakes before 1500 within the British North America Act",
       "Scottish fur traders who founded the Hudson's Bay Company in 1670"
     ],
-    "explanation": "Official Study Question (p. 53): The Métis are a distinct people of mixed Aboriginal and European ancestry, the majority of whom live in the Prairie provinces. They come from both French- and English-speaking backgrounds and speak their own dialect, Michif.",
+    "explanation": "Study Guide Question (p. 53): The Métis are a distinct people of mixed Aboriginal and European ancestry, the majority of whom live in the Prairie provinces. They come from both French- and English-speaking backgrounds and speak their own dialect, Michif.",
     "refIllustrated": "p. 11, 53",
     "refLargePrint": "p. 18, 107"
   },
@@ -505,7 +505,7 @@ window.QUESTION_BANK = [
       "'Keepers of the North' in Algonquin under the authority of the Crown",
       "'Hunters of the sea' in Dene"
     ],
-    "explanation": "Official Study Question (p. 53): The Inuit, which means 'the people' in the Inuktitut language, live in small, scattered communities across the Arctic.",
+    "explanation": "Study Guide Question (p. 53): The Inuit, which means 'the people' in the Inuktitut language, live in small, scattered communities across the Arctic.",
     "refIllustrated": "p. 11, 53",
     "refLargePrint": "p. 18, 107"
   },
@@ -948,7 +948,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_war_of_1812.jpg",
-    "visualCaption": "Official Study Guide (p. 17): HMS Shannon in Halifax (1813), Major-General Sir Isaac Brock, and Shawnee Chief Tecumseh.",
+    "visualCaption": "Discover Canada Study Guide (p. 17): HMS Shannon in Halifax (1813), Major-General Sir Isaac Brock, and Shawnee Chief Tecumseh.",
     "stems": [
       "What was the main outcome of the War of 1812, and which British commander captured Detroit before being killed at Queenston Heights?",
       "Why was the War of 1812 (1812–1814) important to Canada?",
@@ -994,7 +994,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch4_official_study_q_responsible_government",
     "chapter": "ch4",
-    "topic": "Official Study Question: Responsible Government & La Fontaine",
+    "topic": "Study Guide Question: Responsible Government & La Fontaine",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -1011,18 +1011,18 @@ window.QUESTION_BANK = [
       "Citizens vote directly every month on every bill introduced in the Senate according to federal parliamentary law",
       "Only landowners and military officers are permitted to vote in general elections"
     ],
-    "explanation": "Official Study Questions (p. 53): Responsible government means that the ministers of the Crown must have the support ('confidence') of a majority of the elected representatives in order to govern. In 1847–48 the first British North American colony to attain full responsible government was Nova Scotia. In 1849, Sir Louis-Hippolyte La Fontaine, a champion of democracy and French language rights, became the first leader of a responsible government in the Canadas.",
+    "explanation": "Study Guide Questions (p. 53): Responsible government means that the ministers of the Crown must have the support ('confidence') of a majority of the elected representatives in order to govern. In 1847–48 the first British North American colony to attain full responsible government was Nova Scotia. In 1849, Sir Louis-Hippolyte La Fontaine, a champion of democracy and French language rights, became the first leader of a responsible government in the Canadas.",
     "refIllustrated": "p. 18, 53",
     "refLargePrint": "p. 32–33, 107"
   },
   {
     "id": "ch4_official_study_q_confederation_1867",
     "chapter": "ch4",
-    "topic": "Official Study Question: Confederation (July 1, 1867)",
+    "topic": "Study Guide Question: Confederation (July 1, 1867)",
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_expansion_dominion.jpg",
-    "visualCaption": "Official Study Guide (p. 19): Expansion of the Dominion Timeline & First Prime Minister Sir John A. Macdonald.",
+    "visualCaption": "Discover Canada Study Guide (p. 19): Expansion of the Dominion Timeline & First Prime Minister Sir John A. Macdonald.",
     "stems": [
       "What does Confederation mean, and which four provinces first formed the Dominion of Canada on July 1, 1867?",
       "Which law passed by the British Parliament in 1867 established the Dominion of Canada?",
@@ -1037,7 +1037,7 @@ window.QUESTION_BANK = [
       "The creation of the ten provinces and three territories simultaneously in 1949 in the House of Commons in Ottawa",
       "The merger of the Hudson's Bay Company and the North West Company in 1821"
     ],
-    "explanation": "Official Study Question (p. 53): From 1864 to 1867, representatives of Nova Scotia, New Brunswick and the Province of Canada (Ontario and Quebec), known as the Fathers of Confederation, established a new country. The British Parliament passed the British North America Act in 1867, and the Dominion of Canada was officially born on July 1, 1867.",
+    "explanation": "Study Guide Question (p. 53): From 1864 to 1867, representatives of Nova Scotia, New Brunswick and the Province of Canada (Ontario and Quebec), known as the Fathers of Confederation, established a new country. The British Parliament passed the British North America Act in 1867, and the Dominion of Canada was officially born on July 1, 1867.",
     "refIllustrated": "p. 18–19, 53",
     "refLargePrint": "p. 33–35, 107"
   },
@@ -1120,7 +1120,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_expansion_dominion.jpg",
-    "visualCaption": "Official Study Guide (p. 19): Timeline of when each province and territory joined Confederation.",
+    "visualCaption": "Discover Canada Study Guide (p. 19): Timeline of when each province and territory joined Confederation.",
     "stems": [
       "According to the 'Expansion of the Dominion' timeline (p. 19), which province was the last to join Confederation in 1949, and which territory was created in 1999?",
       "In what year did Manitoba join Confederation, in what year did British Columbia join, and in what year did Alberta and Saskatchewan join?",
@@ -1166,11 +1166,11 @@ window.QUESTION_BANK = [
   {
     "id": "ch4_official_study_q_cpr_symbolize",
     "chapter": "ch4",
-    "topic": "Official Study Question: Canadian Pacific Railway (1885)",
+    "topic": "Study Guide Question: Canadian Pacific Railway (1885)",
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_cpr_railway.jpg",
-    "visualCaption": "Official Study Guide (p. 20): Donald Smith (Lord Strathcona) driving the Last Spike of the CPR on November 7, 1885.",
+    "visualCaption": "Discover Canada Study Guide (p. 20): Donald Smith (Lord Strathcona) driving the Last Spike of the CPR on November 7, 1885.",
     "stems": [
       "What did the Canadian Pacific Railway (CPR) symbolize when completed on November 7, 1885, and who drove the 'Last Spike'?",
       "Why did British Columbia join Canada in 1871, and how was that promise fulfilled in 1885?",
@@ -1185,7 +1185,7 @@ window.QUESTION_BANK = [
       "A highway across the Arctic Circle built by the Canadian Rangers in 1949",
       "A trade route built by the Hudson's Bay Company in 1670"
     ],
-    "explanation": "Official Study Question (p. 53): British Columbia joined Canada in 1871 after Ottawa promised to build a railway to the West Coast. On November 7, 1885, a powerful symbol of unity was completed when Donald Smith (Lord Strathcona) drove the last spike of the Canadian Pacific Railway (CPR). Built by European and Chinese labour, the Chinese were afterward subject to the Head Tax, for which the Government of Canada apologized in 2006.",
+    "explanation": "Study Guide Question (p. 53): British Columbia joined Canada in 1871 after Ottawa promised to build a railway to the West Coast. On November 7, 1885, a powerful symbol of unity was completed when Donald Smith (Lord Strathcona) drove the last spike of the Canadian Pacific Railway (CPR). Built by European and Chinese labour, the Chinese were afterward subject to the Head Tax, for which the Government of Canada apologized in 2006.",
     "refIllustrated": "p. 20, 53",
     "refLargePrint": "p. 37, 107"
   },
@@ -1264,7 +1264,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch4_official_study_q_remembrance_day_poppy",
     "chapter": "ch4",
-    "topic": "Official Study Question: Meaning of the Remembrance Day Poppy",
+    "topic": "Study Guide Question: Meaning of the Remembrance Day Poppy",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -1281,7 +1281,7 @@ window.QUESTION_BANK = [
       "To mark the discovery of insulin by Sir Frederick Banting and Charles Best across the ten provinces of Canada",
       "To celebrate the completion of the Canadian Pacific Railway in 1885"
     ],
-    "explanation": "Official Study Question (Discover Canada, p. 52): Canadians wear the red poppy on Remembrance Day (November 11) to remember the sacrifice of over a million brave men and women who have served, and the 110,000 who have given their lives in all wars up to the present day. Lt.-Col. John McCrae composed the poem 'In Flanders Fields' in 1915.",
+    "explanation": "Study Guide Question (Discover Canada, p. 52): Canadians wear the red poppy on Remembrance Day (November 11) to remember the sacrifice of over a million brave men and women who have served, and the 110,000 who have given their lives in all wars up to the present day. Lt.-Col. John McCrae composed the poem 'In Flanders Fields' in 1915.",
     "refIllustrated": "p. 22, 52",
     "refLargePrint": "p. 41–42, 106"
   },
@@ -1316,7 +1316,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_dday_juno_beach.jpg",
-    "visualCaption": "Official Study Guide (p. 23): On D-Day, June 6, 1944, 15,000 Canadian troops stormed and captured Juno Beach in Normandy.",
+    "visualCaption": "Discover Canada Study Guide (p. 23): On D-Day, June 6, 1944, 15,000 Canadian troops stormed and captured Juno Beach in Normandy.",
     "stems": [
       "In the epic invasion of Normandy on June 6, 1944 (D-Day), which beach did 15,000 Canadian troops storm and capture?",
       "During the Second World War (1939–1945), which European country did the Canadian Army liberate in 1944–1945, and how many Canadians served?",
@@ -1414,7 +1414,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_dday_juno_beach.jpg",
-    "visualCaption": "Official Study Guide (p. 23): D-Day invasion on June 6, 1944.",
+    "visualCaption": "Discover Canada Study Guide (p. 23): D-Day invasion on June 6, 1944.",
     "stems": [
       "On D-Day (June 6, 1944), which beach in Normandy did 15,000 Canadian troops storm and capture?",
       "Which Normandy landing beach was captured by Canadian forces on June 6, 1944?",
@@ -1440,7 +1440,7 @@ window.QUESTION_BANK = [
     "difficulty": 3,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_war_of_1812.jpg",
-    "visualCaption": "Official Study Guide (p. 17): Royal Navy frigate escorting the captured USS Chesapeake into Halifax harbour, 1813.",
+    "visualCaption": "Discover Canada Study Guide (p. 17): Royal Navy frigate escorting the captured USS Chesapeake into Halifax harbour, 1813.",
     "stems": [
       "According to the photo caption on page 17 of Discover Canada, which Royal Navy frigate escorted the captured USS Chesapeake into Halifax harbour in 1813?",
       "Look at the naval painting on page 17 of the Study Guide. Which British warship brought the captured USS Chesapeake into Halifax in 1813?",
@@ -1586,7 +1586,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_sports_and_science.jpg",
-    "visualCaption": "Official Study Guide (p. 26): Terry Fox began the 'Marathon of Hope' cross-country run in 1980 for cancer research.",
+    "visualCaption": "Discover Canada Study Guide (p. 26): Terry Fox began the 'Marathon of Hope' cross-country run in 1980 for cancer research.",
     "stems": [
       "Who began a cross-country run called the 'Marathon of Hope' in 1980 to raise money for cancer research?",
       "Why is Terry Fox celebrated as a national hero by Canadians every September?",
@@ -1632,11 +1632,11 @@ window.QUESTION_BANK = [
   {
     "id": "ch5_official_study_q_insulin_banting_best",
     "chapter": "ch5",
-    "topic": "Official Study Question: Discovery of Insulin (Banting & Best)",
+    "topic": "Study Guide Question: Discovery of Insulin (Banting & Best)",
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_sports_and_science.jpg",
-    "visualCaption": "Official Study Guide (p. 27): Sir Frederick Banting and Charles Best discovered insulin.",
+    "visualCaption": "Discover Canada Study Guide (p. 27): Sir Frederick Banting and Charles Best discovered insulin.",
     "stems": [
       "What is the significance of the discovery of insulin by Sir Frederick Banting and Charles Best?",
       "Which two Canadians discovered insulin, a hormone to treat diabetes that has saved 16 million lives worldwide?",
@@ -1651,7 +1651,7 @@ window.QUESTION_BANK = [
       "They mapped the human brain at McGill University within the British North America Act",
       "They invented the X-ray machine and radiation therapy"
     ],
-    "explanation": "Official Study Question (p. 53): Sir Frederick Banting of Toronto and Charles Best discovered insulin, a hormone to treat diabetes that has saved 16 million lives worldwide.",
+    "explanation": "Study Guide Question (p. 53): Sir Frederick Banting of Toronto and Charles Best discovered insulin, a hormone to treat diabetes that has saved 16 million lives worldwide.",
     "refIllustrated": "p. 27, 53",
     "refLargePrint": "p. 52, 107"
   },
@@ -1706,11 +1706,11 @@ window.QUESTION_BANK = [
   {
     "id": "ch6_official_study_q_three_levels_of_gov",
     "chapter": "ch6",
-    "topic": "Official Study Question: Three Levels of Government",
+    "topic": "Study Guide Question: Three Levels of Government",
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_levels_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 33): Federal, Provincial/Territorial, and Municipal (local) governments.",
+    "visualCaption": "Discover Canada Study Guide (p. 33): Federal, Provincial/Territorial, and Municipal (local) governments.",
     "stems": [
       "What are the three levels of government in Canada?",
       "According to Discover Canada (pages 28 and 33), which three levels of government exist in Canada?",
@@ -1725,18 +1725,18 @@ window.QUESTION_BANK = [
       "Imperial, Colonial, and Parish across the ten provinces of Canada",
       "Prime Ministerial, Senatorial, and Mayoral"
     ],
-    "explanation": "Official Study Question (p. 53): The three levels of government in Canada are Federal, Provincial and Territorial, and Municipal (local).",
+    "explanation": "Study Guide Question (p. 53): The three levels of government in Canada are Federal, Provincial and Territorial, and Municipal (local).",
     "refIllustrated": "p. 28, 33, 53",
     "refLargePrint": "p. 54, 67, 108"
   },
   {
     "id": "ch6_official_study_q_three_branches_of_gov",
     "chapter": "ch6",
-    "topic": "Official Study Question: Three Branches of Government",
+    "topic": "Study Guide Question: Three Branches of Government",
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_system_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 29): Canada's System of Government — Executive, Legislative, and Judicial branches.",
+    "visualCaption": "Discover Canada Study Guide (p. 29): Canada's System of Government — Executive, Legislative, and Judicial branches.",
     "stems": [
       "What are the three branches of government in Canada?",
       "Look at the 'Canada's System of Government' chart on page 29. Which three branches work together to govern Canada?",
@@ -1751,7 +1751,7 @@ window.QUESTION_BANK = [
       "Supreme Court, Federal Court, and Provincial Courts",
       "Liberal, Conservative, and New Democratic"
     ],
-    "explanation": "Official Study Question (p. 53): The three branches of government are the Executive, Legislative, and Judicial branches.",
+    "explanation": "Study Guide Question (p. 53): The three branches of government are the Executive, Legislative, and Judicial branches.",
     "refIllustrated": "p. 29, 53",
     "refLargePrint": "p. 57, 59, 107"
   },
@@ -1762,7 +1762,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_system_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 29): Parliament comprises the Sovereign, the Senate, and the House of Commons.",
+    "visualCaption": "Discover Canada Study Guide (p. 29): Parliament comprises the Sovereign, the Senate, and the House of Commons.",
     "stems": [
       "What are the three parts of Parliament?",
       "According to the 'Canada's System of Government' diagram (p. 29), which three institutions make up Parliament?",
@@ -1788,7 +1788,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_system_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 28–29): The Senate in Parliament.",
+    "visualCaption": "Discover Canada Study Guide (p. 28–29): The Senate in Parliament.",
     "stems": [
       "How are Canadian Senators chosen, and until what age do they serve?",
       "Who appoints the members of the Senate, and on whose recommendation?",
@@ -1814,7 +1814,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_bill_becomes_law.jpg",
-    "visualCaption": "Official Study Guide (p. 29): 'Making Laws: How a Bill Becomes Law — The Legislative Process'.",
+    "visualCaption": "Discover Canada Study Guide (p. 29): 'Making Laws: How a Bill Becomes Law — The Legislative Process'.",
     "stems": [
       "Look at the 'How a Bill Becomes Law' chart on page 29. What is the final step (Step 7) required for a bill to become law after passing both the House of Commons and the Senate?",
       "In the 7-step legislative process (p. 29), at which stage do committee members study the bill clause by clause, and what happens at Step 7?",
@@ -1836,7 +1836,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch6_official_study_q_constitutional_monarchy_and_roles",
     "chapter": "ch6",
-    "topic": "Official Study Question: Head of State vs. Head of Government",
+    "topic": "Study Guide Question: Head of State vs. Head of Government",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -1853,7 +1853,7 @@ window.QUESTION_BANK = [
       "The Governor General is elected by voters to serve as both Head of State and Head of Government under the Canadian Constitution",
       "There is no difference; the Prime Minister holds both titles in Canada"
     ],
-    "explanation": "Official Study Questions (p. 53): As a constitutional monarchy, Canada's Head of State is a hereditary Sovereign (Queen or King) who reigns in accordance with the Constitution. There is a clear distinction between the head of state—the Sovereign—and the head of government—the Prime Minister, who actually directs the governing of the country.",
+    "explanation": "Study Guide Questions (p. 53): As a constitutional monarchy, Canada's Head of State is a hereditary Sovereign (Queen or King) who reigns in accordance with the Constitution. There is a clear distinction between the head of state—the Sovereign—and the head of government—the Prime Minister, who actually directs the governing of the country.",
     "refIllustrated": "p. 29, 53",
     "refLargePrint": "p. 57–58, 107"
   },
@@ -1888,7 +1888,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_levels_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 33): Responsibilities of Federal, Provincial/Territorial, and Municipal governments.",
+    "visualCaption": "Discover Canada Study Guide (p. 33): Responsibilities of Federal, Provincial/Territorial, and Municipal governments.",
     "stems": [
       "Which of the following are responsibilities of the FEDERAL government?",
       "According to the Levels of Government table (p. 33), which level of government is responsible for National Defence, Foreign Policy, Citizenship, and Criminal Justice?",
@@ -1914,7 +1914,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_levels_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 33): Provincial and Territorial Responsibilities.",
+    "visualCaption": "Discover Canada Study Guide (p. 33): Provincial and Territorial Responsibilities.",
     "stems": [
       "Which of the following are responsibilities of the PROVINCIAL and TERRITORIAL governments?",
       "Which level of government is responsible for Education, Health Care, Natural Resources, Property and Civil Rights, and Highways?",
@@ -1940,7 +1940,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_levels_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 33): Responsibilities marked '(shared)' between Federal and Provincial governments.",
+    "visualCaption": "Discover Canada Study Guide (p. 33): Responsibilities marked '(shared)' between Federal and Provincial governments.",
     "stems": [
       "Which three responsibilities are SHARED between the Federal and Provincial governments?",
       "According to the table on page 33 of Discover Canada, which areas of jurisdiction are shared by federal and provincial governments?",
@@ -1966,7 +1966,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_levels_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 33): Municipal (local) government row.",
+    "visualCaption": "Discover Canada Study Guide (p. 33): Municipal (local) government row.",
     "stems": [
       "Who are the elected officials in a Municipal (local) government, and what are some of their responsibilities?",
       "Which level of government is responsible for snow removal, recycling programs, firefighting, local policing, and emergency services?",
@@ -1992,7 +1992,7 @@ window.QUESTION_BANK = [
     "difficulty": 2,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_levels_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 33): Provincial/Territorial Elected Officials.",
+    "visualCaption": "Discover Canada Study Guide (p. 33): Provincial/Territorial Elected Officials.",
     "stems": [
       "What are the elected members of provincial and territorial legislatures called?",
       "Which titles are used for elected representatives at the provincial or territorial level in Canada?",
@@ -2038,7 +2038,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch7_official_study_q_how_mps_chosen",
     "chapter": "ch7",
-    "topic": "Official Study Question: How MPs Are Chosen",
+    "topic": "Study Guide Question: How MPs Are Chosen",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -2055,7 +2055,7 @@ window.QUESTION_BANK = [
       "They are appointed by the Governor General until age 75 according to federal parliamentary law",
       "They are selected by the Supreme Court of Canada"
     ],
-    "explanation": "Official Study Question (Discover Canada, p. 52): Members of Parliament (MPs) are elected by voters in their local constituency (riding).",
+    "explanation": "Study Guide Question (Discover Canada, p. 52): Members of Parliament (MPs) are elected by voters in their local constituency (riding).",
     "refIllustrated": "p. 30, 52",
     "refLargePrint": "p. 60, 106"
   },
@@ -2086,7 +2086,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch7_official_study_q_who_is_entitled_to_vote",
     "chapter": "ch7",
-    "topic": "Official Study Question: Who Is Entitled to Vote",
+    "topic": "Study Guide Question: Who Is Entitled to Vote",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -2103,18 +2103,18 @@ window.QUESTION_BANK = [
       "You must be a Commonwealth citizen, be at least 19 years old, and hold a driver's licence within the British North America Act",
       "You must be a Canadian citizen, be at least 25 years old, and have a university degree"
     ],
-    "explanation": "Official Study Question (p. 53): To vote in a federal election, you must be a Canadian citizen, be at least 18 years old on voting day, and be on the voters' list (produced from the National Register of Electors by Elections Canada).",
+    "explanation": "Study Guide Question (p. 53): To vote in a federal election, you must be a Canadian citizen, be at least 18 years old on voting day, and be on the voters' list (produced from the National Register of Electors by Elections Canada).",
     "refIllustrated": "p. 30, 53",
     "refLargePrint": "p. 61, 108"
   },
   {
     "id": "ch7_official_study_q_secret_ballot_obliged_to_tell",
     "chapter": "ch7",
-    "topic": "Official Study Question: Secret Ballot",
+    "topic": "Study Guide Question: Secret Ballot",
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_voting_procedures.jpg",
-    "visualCaption": "Official Study Guide (p. 31–32): Secret Ballot and Voting Procedures.",
+    "visualCaption": "Discover Canada Study Guide (p. 31–32): Secret Ballot and Voting Procedures.",
     "stems": [
       "In Canada, are you obliged to tell other people how you voted?",
       "What does 'secret ballot' mean under Canadian election law?",
@@ -2129,25 +2129,25 @@ window.QUESTION_BANK = [
       "Only Elections Canada officers may require you to state your vote aloud under the authority of the Crown",
       "You must sign your full name on the ballot so your vote can be verified"
     ],
-    "explanation": "Official Study Question (p. 53): Canadian law secures the right to a secret ballot. No one can watch you vote and no one has the right to insist that you tell them how you voted, including family members, employers, or union representatives.",
+    "explanation": "Study Guide Question (p. 53): Canadian law secures the right to a secret ballot. No one can watch you vote and no one has the right to insist that you tell them how you voted, including family members, employers, or union representatives.",
     "refIllustrated": "p. 31–32, 53",
     "refLargePrint": "p. 62, 65, 108"
   },
   {
     "id": "ch7_official_study_q_what_do_you_do_on_election_day",
     "chapter": "ch7",
-    "topic": "Official Study Question: Marking the Ballot on Election Day",
+    "topic": "Study Guide Question: Marking the Ballot on Election Day",
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_voting_procedures.jpg",
-    "visualCaption": "Official Study Guide (p. 32): Step 3 & Step 4 — At the Polling Station and Marking the Ballot.",
+    "visualCaption": "Discover Canada Study Guide (p. 32): Step 3 & Step 4 — At the Polling Station and Marking the Ballot.",
     "stems": [
       "When you go to vote on election day, what do you do to mark your ballot?",
       "According to the Voting Procedures on page 32, how do you mark your ballot behind the voting screen?",
       "What should you bring to the polling station on election day, and how do you mark your choice?"
     ],
     "answer": "Bring your voter information card and proof of identity and address, go behind the screen, and mark an 'X' in the circle next to the name of one candidate",
-    "answerExtended": "Bring your voter information card and proof of identity and address, go behind the screen, and mark an 'X' in the circle next to the name of one candidate (Official Study Question (p. 53) & Voting Procedures (p. 32): Bring your voter information card and proof of your identity and address to the polling station. Go behind the screen and mark an 'X' in the circle next to the name of the candidate of your choice, fold the ballot, and hand it to the poll official to tear off the ballot number before placing it in the ballot box.)",
+    "answerExtended": "Bring your voter information card and proof of identity and address, go behind the screen, and mark an 'X' in the circle next to the name of one candidate (Study Guide Question (p. 53) & Voting Procedures (p. 32): Bring your voter information card and proof of your identity and address to the polling station. Go behind the screen and mark an 'X' in the circle next to the name of the candidate of your choice, fold the ballot, and hand it to the poll official to tear off the ballot number before placing it in the ballot box.)",
     "distractors": [
       "Write your signature and Social Insurance Number next to the candidate's name in the House of Commons in Ottawa",
       "Rank all candidates from 1 to 5 in order of preference and hand it to the party agent within the British North America Act",
@@ -2155,14 +2155,14 @@ window.QUESTION_BANK = [
       "Announce your choice to the poll clerk who records it electronically under the Canadian Constitution",
       "Circle the names of two candidates if you support a coalition government"
     ],
-    "explanation": "Official Study Question (p. 53) & Voting Procedures (p. 32): Bring your voter information card and proof of your identity and address to the polling station. Go behind the screen and mark an 'X' in the circle next to the name of the candidate of your choice, fold the ballot, and hand it to the poll official to tear off the ballot number before placing it in the ballot box.",
+    "explanation": "Study Guide Question (p. 53) & Voting Procedures (p. 32): Bring your voter information card and proof of your identity and address to the polling station. Go behind the screen and mark an 'X' in the circle next to the name of the candidate of your choice, fold the ballot, and hand it to the poll official to tear off the ballot number before placing it in the ballot box.",
     "refIllustrated": "p. 32, 53",
     "refLargePrint": "p. 64–65, 108"
   },
   {
     "id": "ch7_official_study_q_after_election_which_party_forms_gov",
     "chapter": "ch7",
-    "topic": "Official Study Question: Forming the Government (Majority vs. Minority)",
+    "topic": "Study Guide Question: Forming the Government (Majority vs. Minority)",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -2179,7 +2179,7 @@ window.QUESTION_BANK = [
       "The Chief Justice of the Supreme Court appoints the Prime Minister and Cabinet across the ten provinces of Canada",
       "The party with the second-most seats forms the government, while the largest party is the Opposition"
     ],
-    "explanation": "Official Study Question (p. 53): Ordinarily, after an election, the leader of the political party with the most seats in the House of Commons is invited by the Governor General to form the government and becomes the Prime Minister. If the party in power holds at least half of the seats, it is a majority government; if less than half, it is a minority government. If defeated on a major issue (non-confidence vote), the PM usually asks the Governor General to call an election.",
+    "explanation": "Study Guide Question (p. 53): Ordinarily, after an election, the leader of the political party with the most seats in the House of Commons is invited by the Governor General to form the government and becomes the Prime Minister. If the party in power holds at least half of the seats, it is a majority government; if less than half, it is a minority government. If defeated on a major issue (non-confidence vote), the PM usually asks the Governor General to call an election.",
     "refIllustrated": "p. 31, 53",
     "refLargePrint": "p. 62–63, 108"
   },
@@ -2214,7 +2214,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_scales_of_justice.jpg",
-    "visualCaption": "Official Study Guide (p. 36): Statue of Blindfolded Lady Justice at the Vancouver Law Courts.",
+    "visualCaption": "Discover Canada Study Guide (p. 36): Statue of Blindfolded Lady Justice at the Vancouver Law Courts.",
     "stems": [
       "What is the foundational principle of the Canadian criminal justice system regarding guilt or innocence?",
       "Look at the statue of Lady Justice on page 36 of the Study Guide. Why is Lady Justice depicted wearing a blindfold?",
@@ -2236,7 +2236,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch8_official_study_q_role_of_courts_and_highest_court",
     "chapter": "ch8",
-    "topic": "Official Study Question: Role of the Courts & Supreme Court",
+    "topic": "Study Guide Question: Role of the Courts & Supreme Court",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -2253,14 +2253,14 @@ window.QUESTION_BANK = [
       "The Court of Queen's Bench in Ottawa is higher than the Supreme Court of Canada",
       "Each municipality has its own Supreme Court that can overturn federal laws"
     ],
-    "explanation": "Official Study Question (p. 53): The Supreme Court of Canada is our country's highest court (nine judges appointed by the Governor General). Below it are the Federal Court of Canada and provincial courts, including appeal courts, trial courts (Court of Queen's Bench / Supreme Court), family courts, traffic courts, and small claims courts for civil cases involving small sums of money.",
+    "explanation": "Study Guide Question (p. 53): The Supreme Court of Canada is our country's highest court (nine judges appointed by the Governor General). Below it are the Federal Court of Canada and provincial courts, including appeal courts, trial courts (Court of Queen's Bench / Supreme Court), family courts, traffic courts, and small claims courts for civil cases involving small sums of money.",
     "refIllustrated": "p. 29, 37, 53",
     "refLargePrint": "p. 59, 76, 108"
   },
   {
     "id": "ch8_official_study_q_question_the_police_and_rcmp",
     "chapter": "ch8",
-    "topic": "Official Study Question: Questioning the Police & RCMP Jurisdiction",
+    "topic": "Study Guide Question: Questioning the Police & RCMP Jurisdiction",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -2277,7 +2277,7 @@ window.QUESTION_BANK = [
       "If you cannot afford a lawyer, you are barred from defending yourself in court",
       "The RCMP operates only on federal properties in Ottawa and the three territories"
     ],
-    "explanation": "Official Study Question (p. 53): The police are there to keep people safe and to enforce the law. You can question the police about their service or conduct if you feel you need to. There are provincial police forces in Ontario and Quebec, and the RCMP serves as the provincial police in all other provinces. Community legal aid services are available free or at low cost if you cannot afford a lawyer.",
+    "explanation": "Study Guide Question (p. 53): The police are there to keep people safe and to enforce the law. You can question the police about their service or conduct if you feel you need to. There are provincial police forces in Ontario and Quebec, and the RCMP serves as the provincial police in all other provinces. Community legal aid services are available free or at low cost if you cannot afford a lawyer.",
     "refIllustrated": "p. 37, 53",
     "refLargePrint": "p. 76–77, 108"
   },
@@ -2288,7 +2288,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_canadian_symbols.jpg",
-    "visualCaption": "Official Study Guide (p. 38): The 1965 National Flag, the Mace, the Snowbirds, and the Canadian Red Ensign.",
+    "visualCaption": "Discover Canada Study Guide (p. 38): The 1965 National Flag, the Mace, the Snowbirds, and the Canadian Red Ensign.",
     "stems": [
       "In what year was the current red-white-red National Flag of Canada raised for the first time, and what flag served for about 100 years before it?",
       "Where does the red-white-red pattern of the Canadian flag come from, and when did red and white become Canada's national colours?",
@@ -2358,7 +2358,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch9_official_study_q_canadian_symbols_beaver_sports",
     "chapter": "ch9",
-    "topic": "Official Study Question: Canadian Symbols & National Sports",
+    "topic": "Study Guide Question: Canadian Symbols & National Sports",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -2375,7 +2375,7 @@ window.QUESTION_BANK = [
       "Hockey is the official summer sport and Canadian football is the official winter sport",
       "The beaver appears on the $20 bill and the 10-cent coin"
     ],
-    "explanation": "Official Study Question (p. 53): The beaver (symbol of the Hudson's Bay Company, on the 5-cent coin) and the Maple Leaf are key Canadian symbols. Hockey is our national winter sport (Stanley Cup donated by Governor General Lord Stanley in 1892; Clarkson Cup by Adrienne Clarkson in 2005), and Lacrosse, an ancient game first played by Aboriginals, is the official summer sport.",
+    "explanation": "Study Guide Question (p. 53): The beaver (symbol of the Hudson's Bay Company, on the 5-cent coin) and the Maple Leaf are key Canadian symbols. Hockey is our national winter sport (Stanley Cup donated by Governor General Lord Stanley in 1892; Clarkson Cup by Adrienne Clarkson in 2005), and Lacrosse, an ancient game first played by Aboriginals, is the official summer sport.",
     "refIllustrated": "p. 39, 53",
     "refLargePrint": "p. 81–83, 108"
   },
@@ -2406,7 +2406,7 @@ window.QUESTION_BANK = [
   {
     "id": "ch9_official_study_q_highest_honour_victoria_cross",
     "chapter": "ch9",
-    "topic": "Official Study Question: Highest Honour — The Victoria Cross",
+    "topic": "Study Guide Question: Highest Honour — The Victoria Cross",
     "difficulty": 1,
     "isVisual": false,
     "stems": [
@@ -2423,7 +2423,7 @@ window.QUESTION_BANK = [
       "The Governor General's Trophy, awarded only to Olympic gold medallists",
       "The Cross of Valour, created in 1759 after the Battle of the Plains of Abraham"
     ],
-    "explanation": "Official Study Question (p. 53): The Victoria Cross (V.C.) is the highest honour available to Canadians and is awarded for the most conspicuous bravery, a daring or pre-eminent act of valour or self-sacrifice, or extreme devotion to duty in the presence of the enemy. The V.C. has been awarded to 96 Canadians since 1854.",
+    "explanation": "Study Guide Question (p. 53): The Victoria Cross (V.C.) is the highest honour available to Canadians and is awarded for the most conspicuous bravery, a daring or pre-eminent act of valour or self-sacrifice, or extreme devotion to duty in the presence of the enemy. The V.C. has been awarded to 96 Canadians since 1854.",
     "refIllustrated": "p. 40–41, 53",
     "refLargePrint": "p. 85–88, 108"
   },
@@ -2434,7 +2434,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_public_holidays.jpg",
-    "visualCaption": "Official Study Guide (p. 41): Table of National Public Holidays and Other Important Dates.",
+    "visualCaption": "Discover Canada Study Guide (p. 41): Table of National Public Holidays and Other Important Dates.",
     "stems": [
       "According to the table on page 41 of Discover Canada, when is Victoria Day celebrated, when is Canada Day, and when is Thanksgiving Day?",
       "Look at the 'National Public Holidays and Other Important Dates' table (p. 41). What dates correspond to Sir John A. Macdonald Day, Vimy Day, Fête nationale (Quebec), and Sir Wilfrid Laurier Day?",
@@ -2508,7 +2508,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45): Map of Canada — 3 Oceans, 10 Provinces, 3 Territories, and Ottawa.",
+    "visualCaption": "Discover Canada Study Guide (p. 45): Map of Canada — 3 Oceans, 10 Provinces, 3 Territories, and Ottawa.",
     "stems": [
       "Which three oceans line Canada's frontiers, and who chose Ottawa as the capital of Canada in 1857?",
       "Looking at the Map of Canada (p. 45), which ocean is on the west, which on the east, and which to the north?",
@@ -2558,7 +2558,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_regions_capitals.jpg",
-    "visualCaption": "Official Study Guide (p. 45): Table of Canada's 5 Regions, 10 Provinces & 3 Territories.",
+    "visualCaption": "Discover Canada Study Guide (p. 45): Table of Canada's 5 Regions, 10 Provinces & 3 Territories.",
     "stems": [
       "What are the five distinct geographical regions of Canada?",
       "According to the table on page 45 of Discover Canada, into which five regions are the 10 provinces and 3 territories grouped?",
@@ -2580,11 +2580,11 @@ window.QUESTION_BANK = [
   {
     "id": "ch11_official_study_q_atlantic_provinces_list",
     "chapter": "ch11",
-    "topic": "Official Study Question: The Four Atlantic Provinces & Capitals",
+    "topic": "Study Guide Question: The Four Atlantic Provinces & Capitals",
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/table_regions_capitals.jpg",
-    "visualCaption": "Official Study Guide (p. 45): Atlantic Provinces and Capital Cities.",
+    "visualCaption": "Discover Canada Study Guide (p. 45): Atlantic Provinces and Capital Cities.",
     "stems": [
       "What provinces are referred to as the Atlantic Provinces, and what are their capital cities?",
       "Which four provinces make up the Atlantic region of Canada?",
@@ -2599,7 +2599,7 @@ window.QUESTION_BANK = [
       "Nova Scotia, New Brunswick, Prince Edward Island, and Cape Breton Island",
       "Newfoundland and Labrador, Nunavut, Nova Scotia, and New Brunswick"
     ],
-    "explanation": "Official Study Question (p. 53) & Table (p. 45): The four Atlantic Provinces and their capitals are Newfoundland and Labrador (St. John's), Prince Edward Island (Charlottetown), Nova Scotia (Halifax), and New Brunswick (Fredericton).",
+    "explanation": "Study Guide Question (p. 53) & Table (p. 45): The four Atlantic Provinces and their capitals are Newfoundland and Labrador (St. John's), Prince Edward Island (Charlottetown), Nova Scotia (Halifax), and New Brunswick (Fredericton).",
     "refIllustrated": "p. 45–47, 53",
     "refLargePrint": "p. 95–98, 108"
   },
@@ -2610,7 +2610,7 @@ window.QUESTION_BANK = [
     "difficulty": 2,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_confederation_bridge.jpg",
-    "visualCaption": "Official Study Guide (p. 46 & 56): Confederation Bridge connecting PEI to mainland New Brunswick.",
+    "visualCaption": "Discover Canada Study Guide (p. 46 & 56): Confederation Bridge connecting PEI to mainland New Brunswick.",
     "stems": [
       "Which province is the smallest in Canada, known as the birthplace of Confederation, connected to the mainland by the Confederation Bridge, and the setting of 'Anne of Green Gables'?",
       "Which Atlantic province is the oldest colony of the British Empire and has its own time zone, and which has the world's highest tides in the Bay of Fundy?",
@@ -2665,7 +2665,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45, 48–49): The three Prairie Provinces — Manitoba, Saskatchewan, and Alberta.",
+    "visualCaption": "Discover Canada Study Guide (p. 45, 48–49): The three Prairie Provinces — Manitoba, Saskatchewan, and Alberta.",
     "stems": [
       "Which three provinces make up the Prairie Provinces, and what are their capital cities?",
       "Which Prairie province is known as the 'breadbasket of the world' and the 'wheat province' (with 40% of Canada's arable land, uranium/potash, and the RCMP academy in Regina)?",
@@ -2696,7 +2696,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45, 49–50): British Columbia on the Pacific Coast.",
+    "visualCaption": "Discover Canada Study Guide (p. 45, 49–50): British Columbia on the Pacific Coast.",
     "stems": [
       "What is the capital city of British Columbia, where is Canada's largest and busiest port, and what is B.C.'s most valuable industry?",
       "After English, which two languages are the most spoken in British Columbia's cities, and where is the Navy's Pacific fleet headquartered?",
@@ -2722,7 +2722,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_mount_logan.jpg",
-    "visualCaption": "Official Study Guide (p. 50): Mount Logan in the Yukon Territory — the highest mountain in Canada.",
+    "visualCaption": "Discover Canada Study Guide (p. 50): Mount Logan in the Yukon Territory — the highest mountain in Canada.",
     "stems": [
       "What are the three Northern Territories and their capital cities, and why is the North called the 'Land of the Midnight Sun'?",
       "Where is Mount Logan (the highest mountain in Canada) located, which capital is called the 'diamond capital of North America', and when was Nunavut established?",
@@ -2753,7 +2753,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/table_regions_capitals.jpg",
-    "visualCaption": "Official Study Guide (p. 45): Atlantic Provinces and Capital Cities.",
+    "visualCaption": "Discover Canada Study Guide (p. 45): Atlantic Provinces and Capital Cities.",
     "stems": [
       "What is the capital city of Newfoundland and Labrador, and what is the capital city of New Brunswick?",
       "Many people confuse St. John's and Saint John. Which province has St. John's as its capital, and what is the capital of New Brunswick?",
@@ -2784,7 +2784,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/table_regions_capitals.jpg",
-    "visualCaption": "Official Study Guide (p. 45): Prairie Provinces and Capital Cities.",
+    "visualCaption": "Discover Canada Study Guide (p. 45): Prairie Provinces and Capital Cities.",
     "stems": [
       "What are the official capital cities of Alberta, Saskatchewan, and Manitoba?",
       "Do not confuse largest cities with capitals: What is the capital of Alberta, and what is the capital of Saskatchewan?",
@@ -2815,7 +2815,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/table_regions_capitals.jpg",
-    "visualCaption": "Official Study Guide (p. 45): Northern Territories and Capital Cities.",
+    "visualCaption": "Discover Canada Study Guide (p. 45): Northern Territories and Capital Cities.",
     "stems": [
       "What are the capital cities of the Yukon Territory, the Northwest Territories, and Nunavut?",
       "Match each of Canada's three Northern Territories with its official capital city.",
@@ -3009,7 +3009,7 @@ window.QUESTION_BANK = [
     "difficulty": 2,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_sports_and_science.jpg",
-    "visualCaption": "Official Study Guide (p. 26): Canadian sports heroes and Olympic champions.",
+    "visualCaption": "Discover Canada Study Guide (p. 26): Canadian sports heroes and Olympic champions.",
     "stems": [
       "Who scored the famous winning goal for Canada in the 1972 Canada–Soviet Summit Series, and who is considered one of the greatest hockey players of all time?",
       "In 1972, which hockey player scored the series-winning goal against the Soviet Union?",
@@ -3059,7 +3059,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_system_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 28–29): Executive Branch — Prime Minister and Cabinet.",
+    "visualCaption": "Discover Canada Study Guide (p. 28–29): Executive Branch — Prime Minister and Cabinet.",
     "stems": [
       "Who chooses the ministers of the Crown (Cabinet ministers), and from which chamber are most of them selected?",
       "In Canada's parliamentary democracy, who is responsible for the operations and policy of the government alongside the Prime Minister?",
@@ -3085,7 +3085,7 @@ window.QUESTION_BANK = [
     "difficulty": 2,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_voting_procedures.jpg",
-    "visualCaption": "Official Study Guide (p. 30, 32): Elections Canada and the Voters' List.",
+    "visualCaption": "Discover Canada Study Guide (p. 30, 32): Elections Canada and the Voters' List.",
     "stems": [
       "Which neutral agency of Parliament produces the voters' lists from the National Register of Electors?",
       "What happens if your name is not on the National Register of Electors when an election is called?",
@@ -3111,7 +3111,7 @@ window.QUESTION_BANK = [
     "difficulty": 2,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_canadian_symbols.jpg",
-    "visualCaption": "Official Study Guide (p. 38): Canadian Symbols — The Fleur-de-lys.",
+    "visualCaption": "Discover Canada Study Guide (p. 38): Canadian Symbols — The Fleur-de-lys.",
     "stems": [
       "What has been a symbol of French royalty for more than 1,000 years, and in what year did Quebec adopt its own flag based on the Cross and this symbol?",
       "Which floral symbol was adopted by the French king in the year 496 and appears on the flag of Quebec?",
@@ -3137,7 +3137,7 @@ window.QUESTION_BANK = [
     "difficulty": 2,
     "isVisual": true,
     "visualAsset": "../assets/figures/visual_canadian_symbols.jpg",
-    "visualCaption": "Official Study Guide (p. 38): The Snowbirds (431 Air Demonstration Squadron) are a Canadian icon.",
+    "visualCaption": "Discover Canada Study Guide (p. 38): The Snowbirds (431 Air Demonstration Squadron) are a Canadian icon.",
     "stems": [
       "According to the photo caption on page 38 of Discover Canada, what are the 'Snowbirds' (431 Air Demonstration Squadron)?",
       "Look at the red-and-white jets pictured on page 38 of the Study Guide. What is the name of this Canadian icon?",
@@ -3168,7 +3168,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45, 47–48): Ontario in Central Canada.",
+    "visualCaption": "Discover Canada Study Guide (p. 45, 47–48): Ontario in Central Canada.",
     "stems": [
       "Which province is the most populous in Canada, home to more than one-third of all Canadians (over 12 million people)?",
       "Look at the highlighted province [?] on the Map of Canada (Ontario). What is its provincial capital, and what is Canada's largest city?",
@@ -3194,7 +3194,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45, 48): The Five Great Lakes between Ontario and the U.S.",
+    "visualCaption": "Discover Canada Study Guide (p. 45, 48): The Five Great Lakes between Ontario and the U.S.",
     "stems": [
       "What are the names of the five Great Lakes located between Ontario and the United States?",
       "Which of the five Great Lakes is the largest freshwater lake in the world?",
@@ -3220,7 +3220,7 @@ window.QUESTION_BANK = [
     "difficulty": 1,
     "isVisual": true,
     "visualAsset": "../assets/figures/chart_system_of_government.jpg",
-    "visualCaption": "Official Study Guide (p. 29): Judicial Branch — Supreme Court of Canada (nine judges appointed by the Governor General).",
+    "visualCaption": "Discover Canada Study Guide (p. 29): Judicial Branch — Supreme Court of Canada (nine judges appointed by the Governor General).",
     "stems": [
       "How many judges sit on the Supreme Court of Canada, and who appoints them?",
       "According to the System of Government chart on page 29, who appoints the nine judges of the Supreme Court of Canada?",
@@ -3371,7 +3371,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45, 47): Map of Canada — Identify the highlighted province [?].",
+    "visualCaption": "Discover Canada Study Guide (p. 45, 47): Map of Canada — Identify the highlighted province [?].",
     "stems": [
       "Look at the province marked with [?] on the Map of Canada (east of Ontario, bordering Hudson Bay and the St. Lawrence River). What province is it, and what is its capital city?",
       "Which province highlighted as [?] on the map is Canada's largest producer of hydro-electricity and pulp and paper, with Québec City as its capital?",
@@ -3402,7 +3402,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45–47): Map of Canada — Identify the highlighted Atlantic province [?].",
+    "visualCaption": "Discover Canada Study Guide (p. 45–47): Map of Canada — Identify the highlighted Atlantic province [?].",
     "stems": [
       "Look at the Atlantic peninsula and island province marked with [?] on the Map of Canada. Which province is it, and what is its capital city?",
       "Which Atlantic province highlighted as [?] is known for the world's highest tides in the Bay of Fundy and Canada's largest east coast naval base?",
@@ -3433,7 +3433,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45, 48): Map of Canada — Identify the easternmost Prairie province [?].",
+    "visualCaption": "Discover Canada Study Guide (p. 45, 48): Map of Canada — Identify the easternmost Prairie province [?].",
     "stems": [
       "Look at the Prairie province marked with [?] on the Map of Canada (located between Ontario and Saskatchewan, bordering Hudson Bay). What province is it, and what is its capital?",
       "Which Prairie province highlighted as [?] has the largest Aboriginal proportion of any province (over 15%) and Western Canada's largest Francophone community in St. Boniface?",
@@ -3464,7 +3464,7 @@ window.QUESTION_BANK = [
       "mode": "identify_province"
     },
     "visualAsset": "../assets/figures/map_canada_full.jpg",
-    "visualCaption": "Official Study Guide (p. 45, 50–51): Map of Canada — Identify the eastern Arctic territory [?].",
+    "visualCaption": "Discover Canada Study Guide (p. 45, 50–51): Map of Canada — Identify the eastern Arctic territory [?].",
     "stems": [
       "Look at the vast eastern Arctic territory marked with [?] on the Map of Canada (established on April 1, 1999). What territory is it, and what is its capital?",
       "Which Northern Territory highlighted as [?] means 'our land' in Inuktitut and has a population that is about 85% Inuit?",

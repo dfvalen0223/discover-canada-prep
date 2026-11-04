@@ -78,7 +78,7 @@
   function openLightbox(imgSrc, title, caption) {
     const modal = document.getElementById("lightbox-modal");
     document.getElementById("lightbox-img").src = imgSrc;
-    document.getElementById("lightbox-title").textContent = title || "Official Study Guide Visual";
+    document.getElementById("lightbox-title").textContent = title || "Study Guide Visual";
     document.getElementById("lightbox-caption").textContent = caption || "";
     modal.style.display = "flex";
   }
@@ -93,8 +93,8 @@
 
     const titles = {
       exam: [
-        "Official 20-Question Citizenship Exam Simulator",
-        "English Multiple-Choice • Pass Criterion: 15 / 20 (75%) • Dynamic Anti-Memorization Engine"
+        "20-Question Citizenship Practice Exam",
+        "Independent Study Tool • English Multiple-Choice • Pass Criterion: 15 / 20 (75%) • Dynamic Anti-Memorization Engine"
       ],
       study: [
         "Gamified Study Lab & Interactive Challenges",
@@ -105,8 +105,8 @@
         "Pinpoint chapters below 75% accuracy, inspect your Mistake Vault, and track exam history"
       ],
       pdf: [
-        "Official Maps, Charts, Tables & 68-Page Illustrated PDF Explorer",
-        "Inspect all 16 high-resolution exam figures and browse both attached Discover Canada study guides"
+        "Maps, Charts, Tables & 68-Page Illustrated PDF Explorer",
+        "Inspect all 16 high-resolution study guide figures and browse both attached Discover Canada PDFs"
       ],
       profile: [
         "Citizenship Ranks, Achievements & Mac-to-Mac Portability",
@@ -171,7 +171,7 @@
     const st = window.AdaptiveEngine.getState();
 
     document.getElementById("ui-bank-stats-text").textContent =
-      `${qBank.length} official concepts • ${totalStems} rotating English question stems • ${visCount} visual map/chart items • Dynamic distractor sampling`;
+      `${qBank.length} study concepts • ${totalStems} rotating English question stems • ${visCount} visual map/chart items • Dynamic distractor sampling`;
     document.getElementById("ui-cooldown-count").textContent = (st.lastExamQuestionIds || []).length;
   }
 
@@ -201,12 +201,12 @@
     document.getElementById("exam-runner").style.display = "block";
 
     const modeLabels = {
-      adaptive: "🍁 Official Adaptive 20-Question Exam",
+      adaptive: "🍁 Adaptive 20-Question Practice Exam",
       weakness: "🎯 Targeted Weakness Reinforcement Exam",
       visual_focus: "🗺️ Visual Maps, Charts & Diagrams Exam",
       chapter: "⚔️ Chapter Boss Challenge Quiz"
     };
-    document.getElementById("exam-active-mode-badge").textContent = modeLabels[mode] || "Official Exam";
+    document.getElementById("exam-active-mode-badge").textContent = modeLabels[mode] || "Practice Exam";
     document.getElementById("exam-q-total").textContent = currentExam.totalQuestions;
     document.getElementById("exam-answered-total").textContent = currentExam.totalQuestions;
 
@@ -270,7 +270,7 @@
     document.getElementById("exam-q-topic").textContent = q.topic + (q.isVisual ? " • [VISUAL MAP / CHART QUESTION]" : "");
     document.getElementById("exam-q-stem").textContent = q.questionText;
 
-    // Visual Box rendering (Official PDF Figure + Interactive SVG Map/Chart Callout if present)
+    // Visual Box rendering (PDF Figure + Interactive SVG Map/Chart Callout if present)
     const visBox = document.getElementById("exam-q-visual-box");
     const visContent = document.getElementById("exam-q-visual-content");
     if (q.isVisual && (q.visualAsset || q.svgCallout)) {
@@ -291,7 +291,7 @@
       }
       visContent.innerHTML = html;
       document.getElementById("exam-q-visual-caption").textContent =
-        q.visualCaption || `Official Discover Canada Study Guide Figure (${q.refIllustrated})`;
+        q.visualCaption || `Discover Canada Study Guide Figure (${q.refIllustrated})`;
 
       const imgEl = document.getElementById("active-q-img");
       if (imgEl) {
@@ -447,7 +447,7 @@
           </div>
         ` : ''}
         <div style="font-size:13px; color:#334155; background:#f8fafc; padding:10px; border-radius:7px; margin-top:6px;">
-          <strong>Official Explanation:</strong> ${dr.explanation}
+          <strong>Study Guide Explanation:</strong> ${dr.explanation}
           <div style="margin-top:5px; font-size:11.5px; color:#64748b; display:flex; justify-content:space-between; align-items:center;">
             <span>📖 Illustrated Guide: <strong>${dr.refIllustrated}</strong> | Large Print Guide: <strong>${dr.refLargePrint}</strong> | Engine: <em>${dr.adaptiveReason}</em></span>
             <button class="btn-link btn-open-pdf-ref" data-ref="${dr.refIllustrated}">Open in PDF Guide →</button>
@@ -460,7 +460,7 @@
       <div class="results-banner ${record.passed ? 'pass' : 'fail'}">
         <div>
           <div style="font-size:12px; font-weight:800; letter-spacing:0.08em; text-transform:uppercase; opacity:0.9;">
-            ${record.passed ? '🎉 OFFICIAL PASS CRITERION MET (15+ / 20)' : '⚠️ BELOW 15/20 PASS CRITERION — REINFORCEMENT RECOMMENDED'}
+            ${record.passed ? '🎉 PASS CRITERION MET (15+ / 20)' : '⚠️ BELOW 15/20 PASS CRITERION — REINFORCEMENT RECOMMENDED'}
           </div>
           <h3 style="font-size:26px; font-weight:900; margin:4px 0 8px;">
             ${record.passed
@@ -496,7 +496,7 @@
       </div>
 
       <div class="section-card">
-        <h3><span>🧐 Complete Question-by-Question Review &amp; Official PDF Citations</span></h3>
+        <h3><span>🧐 Complete Question-by-Question Review &amp; PDF Citations</span></h3>
         ${questionsReviewHtml}
       </div>
     `;
@@ -603,7 +603,7 @@
           <div>
             <h3 style="color:#fff; margin-bottom:4px;">🛶 The Trans-Canada Citizenship Expedition Trail (All 11 Chapters)</h3>
             <p style="font-size:13px; color:#cbd5e1;">
-              Expand any chapter below to study every official date, law, symbol, and region, or launch a focused Chapter Boss Quiz to earn XP and raise your mastery above 75%.
+              Expand any chapter below to study every key date, law, symbol, and region, or launch a focused Chapter Boss Quiz to earn XP and raise your mastery above 75%.
             </p>
           </div>
           <div style="font-size:13px; background:rgba(255,255,255,0.1); padding:8px 14px; border-radius:8px;">
@@ -703,7 +703,7 @@
 
             <div class="flashcard-face flashcard-back">
               <div style="display:flex; justify-content:space-between; align-items:center;">
-                <span style="font-size:12px; font-weight:800; color:#fde68a;">✅ OFFICIAL ANSWER &amp; EXPLANATION</span>
+                <span style="font-size:12px; font-weight:800; color:#fde68a;">✅ STUDY GUIDE ANSWER &amp; EXPLANATION</span>
                 <button class="btn btn-outline btn-sm" id="btn-fc-speak-a">🔊 Read Answer</button>
               </div>
               <div>
@@ -853,8 +853,8 @@
             selectedId: mapChallengeState.selectedProvId
           })}
           <div style="margin-top:10px; display:flex; justify-content:space-between; font-size:12px; color:#64748b;">
-            <span>Colors match official Discover Canada regions: Atlantic, Central, Prairies, West Coast &amp; North</span>
-            <button class="btn-link" id="btn-view-official-map-jpg">🔍 View Original PDF Map (p. 45)</button>
+            <span>Colors match the 5 Discover Canada regions: Atlantic, Central, Prairies, West Coast &amp; North</span>
+            <button class="btn-link" id="btn-view-pdf-map-jpg">🔍 View Original PDF Map (p. 45)</button>
           </div>
         </div>
 
@@ -867,7 +867,7 @@
           <div style="font-size:14px; font-weight:800; color:#c8102e; margin-bottom:12px;">
             🏛️ Capital City: ${selectedData.capital}
           </div>
-          <h4 style="font-size:12.5px; text-transform:uppercase; color:#64748b; margin-bottom:6px;">Official Exam Key Facts:</h4>
+          <h4 style="font-size:12.5px; text-transform:uppercase; color:#64748b; margin-bottom:6px;">Key Study Facts:</h4>
           <ul class="takeaways-list" style="margin-bottom:14px;">
             ${selectedData.keyFacts.map(f => `<li>${f}</li>`).join("")}
           </ul>
@@ -879,8 +879,8 @@
     `;
 
     document.getElementById("btn-start-map-game").addEventListener("click", startMapChallengeGame);
-    document.getElementById("btn-view-official-map-jpg").addEventListener("click", () => {
-      openLightbox("../assets/figures/map_canada_full.jpg", "Official Map of Canada (Page 45)", "10 Provinces, 3 Territories, 3 Oceans & Ottawa");
+    document.getElementById("btn-view-pdf-map-jpg").addEventListener("click", () => {
+      openLightbox("../assets/figures/map_canada_full.jpg", "Map of Canada (Page 45)", "10 Provinces, 3 Territories, 3 Oceans & Ottawa");
     });
 
     panel.querySelectorAll(".clickable-province").forEach(el => {
@@ -1137,7 +1137,7 @@
     container.innerHTML = `
       <div class="kpi-grid-4">
         <div class="kpi-card">
-          <div class="kpi-label">Official Readiness Score</div>
+          <div class="kpi-label">Estimated Readiness Score</div>
           <div class="kpi-value" style="color:${report.readinessColor};">${report.readinessScore}%</div>
           <div class="kpi-sub">${report.readinessVerdict}</div>
         </div>
@@ -1149,7 +1149,7 @@
         <div class="kpi-card">
           <div class="kpi-label">Book Syllabus Coverage</div>
           <div class="kpi-value">${report.syllabusCoveragePct}%</div>
-          <div class="kpi-sub">${report.seenConcepts} of ${report.totalConcepts} Official Concepts Tested</div>
+          <div class="kpi-sub">${report.seenConcepts} of ${report.totalConcepts} Study Concepts Tested</div>
         </div>
         <div class="kpi-card">
           <div class="kpi-label">Maps &amp; Charts Accuracy</div>
@@ -1187,7 +1187,7 @@
   }
 
   // =========================================================================
-  // TAB 4: MAPS, CHARTS & OFFICIAL 68-PAGE ILLUSTRATED PDF EXPLORER
+  // TAB 4: MAPS, CHARTS & 68-PAGE ILLUSTRATED PDF EXPLORER
   // =========================================================================
   function renderPdfExplorerTab() {
     const container = document.getElementById("pdf-explorer-container");
@@ -1349,9 +1349,9 @@
 
     container.innerHTML = `
       <div class="section-card" style="border:2px solid #2563eb; background:linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);">
-        <h3><span>🔒 Acceso Privado (GitHub Pages), Enlace Secreto y Cuentas Gmail / Contraseña</span></h3>
+        <h3><span>🔒 Acceso Privado (GitHub Pages), Enlace Secreto y Usuario / Contraseña</span></h3>
         <p style="font-size:13.3px; color:#334155; margin-bottom:12px;">
-          Esta aplicación está protegida por <strong>Enlace Privado de Invitación</strong> + <strong>Login Instantáneo con Gmail (1-Clic sin formularios)</strong> y <strong>Usuario / Contraseña</strong>. Solamente las personas a quienes compartas este enlace secreto pueden ver y usar la aplicación:
+          Esta herramienta de estudio independiente está protegida por <strong>Enlace Privado de Invitación</strong> + <strong>Usuario y Contraseña</strong>. Solamente las personas autorizadas pueden iniciar sesión y usar la aplicación:
         </p>
         <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:12px;">
           <input type="text" id="input-share-private-link" value="${shareLink}" readonly style="flex:1; min-width:260px; padding:9px 12px; border-radius:8px; border:1.5px solid #93c5fd; font-weight:700; font-size:12.5px; color:#1e3a8a; background:#ffffff;" />
@@ -1361,11 +1361,11 @@
         </div>
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; font-size:12.5px; color:#475569; background:#f8fafc; padding:10px 14px; border-radius:8px; border:1px solid #cbd5e1;">
           <div>
-            👤 Sesión Activa: <strong>${session ? (session.displayName + ' (' + (session.email || session.username) + ')') : 'Sin sesión'}</strong>
+            👤 Sesión Activa: <strong>${session ? (session.displayName + ' (' + session.username + ')') : 'Sin sesión'}</strong>
             • Clave de Enlace: <code>${authCfg.secretInviteKey}</code>
           </div>
           <button class="btn btn-outline btn-sm" id="btn-profile-logout">
-            🚪 Cerrar Sesión / Cambiar Cuenta de Gmail
+            🚪 Cerrar Sesión / Cambiar Usuario
           </button>
         </div>
       </div>
