@@ -1,30 +1,30 @@
 // Private Access Gate — Clean Username & Password Authentication
 // Authorized Users:
-// 1. User: dfvalen0223 | Password: dfvalen0223
-// 2. User: mildrentoro | Password: mildrentoro
+// 1. User: daniel1130  | Password: felipe1130
+// 2. User: mildrentoro | Password: viviana6703
 
 window.AuthGate = (function () {
-  const AUTH_STORAGE_KEY = "discover_canada_auth_session_v3";
-  const CONFIG_STORAGE_KEY = "discover_canada_auth_config_v3";
+  const AUTH_STORAGE_KEY = "discover_canada_auth_session_v5";
+  const CONFIG_STORAGE_KEY = "discover_canada_auth_config_v5";
 
   const GITHUB_PAGES_BASE_URL = "https://dfvalen0223.github.io/discover-canada-prep/";
 
   function getDefaultConfig() {
     return {
       secretInviteKey: "canada-2026-vip-7x9k2m",
-      requireSecretLinkOnWeb: false, // Protected directly by the private user accounts (dfvalen0223 & mildrentoro)
+      requireSecretLinkOnWeb: false, // Protected directly by the private user accounts (daniel1130 & mildrentoro)
       users: [
         {
-          username: "dfvalen0223",
-          email: "dfvalen0223@gmail.com",
-          passwordHash: "dfvalen0223",
-          displayName: "dfvalen0223",
+          username: "daniel1130",
+          email: "daniel1130",
+          passwordHash: "felipe1130",
+          displayName: "daniel1130",
           role: "admin"
         },
         {
           username: "mildrentoro",
-          email: "mildrentoro@gmail.com",
-          passwordHash: "mildrentoro",
+          email: "mildrentoro",
+          passwordHash: "viviana6703",
           displayName: "mildrentoro",
           role: "admin"
         }
