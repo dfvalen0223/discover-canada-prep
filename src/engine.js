@@ -203,8 +203,8 @@ window.AdaptiveEngine = (function () {
     }
 
     // 5. Anti-Memorization Cooldown: strongly penalize items asked in the immediately preceding exam
-    if (state.lastExamQuestionIds.includes(q.id) && mode !== "mistake_vault") {
-      weight *= 0.12;
+    if (state.lastExamQuestionIds.includes(q.id) && mode !== "mistake_vault" && mode !== "weakness") {
+      weight *= 0.01;
     }
 
     // Add slight stochastic jitter (+/- 15%) so every generated exam feels organic

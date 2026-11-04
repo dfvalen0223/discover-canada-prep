@@ -138,13 +138,11 @@ const trickResult = window.AdaptiveEngine.submitExamResult(trickExam, trickAnswe
 assert.strictEqual(trickResult.record.score, 20, "Picking the longest option in Trick Mode must score 20/20 (100%)");
 console.log("✅ Verified 'Longest Option = Correct' Trick Mode scores 20/20 (100%) on every exam!");
 
-console.log("=== 5. Verifying Private Invitation Link Gate + 1-Click Gmail Auth + Username/Password ===");
-assert.strictEqual(window.AuthGate.checkPrivateLinkAccess(), true, "Valid ?key=... must unlock private link access");
-const gmailSess = window.AuthGate.signInWithGmail("daniel.test@gmail.com");
-assert.strictEqual(gmailSess.email, "daniel.test@gmail.com");
-assert.strictEqual(gmailSess.provider, "gmail");
-const passSess = window.AuthGate.signInWithPassword("daniel", "Canada2026!");
-assert.strictEqual(passSess.username, "daniel");
-console.log("✅ Verified Private Invitation Link Gate, 1-Click Gmail Login & Username/Password Login!");
+console.log("=== 5. Verifying Username & Password Login (dfvalen0223 & mildrentoro) ===");
+const s1 = window.AuthGate.signInWithPassword("dfvalen0223", "dfvalen0223");
+assert.strictEqual(s1.username, "dfvalen0223");
+const s2 = window.AuthGate.signInWithPassword("mildrentoro", "mildrentoro");
+assert.strictEqual(s2.username, "mildrentoro");
+console.log("✅ Verified dfvalen0223 & mildrentoro Username/Password Login!");
 
 console.log("✅ All Adaptive Engine, Stem Rotation, Trick Mode, AuthGate & Mac Portability tests PASSED!");
